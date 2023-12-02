@@ -22,6 +22,10 @@ author: PREMISE team
 navbar-links:
   About: "about"
   Team: "team"
+  Tools:
+    - AiiDA: "https://aiida.net"
+    - AiiDAlab: "https://aiidalab.net"
+    - openBIS: "https://openBIS.ch"
 
 ################
 # --- Logo --- #

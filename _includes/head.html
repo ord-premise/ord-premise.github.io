@@ -78,7 +78,7 @@
       {% include ext-css.html css=css %}
     {% endfor %}
   {% endif %}
-  
+
   {% if page.css %}
     {% for css in page.css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
@@ -157,5 +157,19 @@
       {% include {{ file }} %}
     {% endfor %}
   {% endif %}
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var links = document.links;
+
+        console.log(links)
+        for (var i = 0; i < links.length; i++) {
+            if (links[i].hostname != window.location.hostname) {
+                links[i].target = '_blank';
+                links[i].rel = 'noopener noreferrer';
+            }
+        }
+    });
+  </script>
 
 </head>
