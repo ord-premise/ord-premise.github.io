@@ -1,0 +1,42 @@
+---
+layout: page
+title: About Us
+subtitle: What is PREMISE?
+---
+
+<div class="col-xl-10 offset-xl-1">
+  <p>PREMISE is...</p>
+
+  <div class="text-center my-4">
+    <h1 class="mb-3">Our mission</h1>
+    <blockquote class="blockquote">
+      To establish, promote, and facilitate the adoption of ORD practices
+      adhering to the FAIR data principles in the field of Materials Science,
+      and to provide the missing critical components to enable open and
+      reproducible research in an accessible format that is shareable with the
+      broad scientific community
+    </blockquote>
+  </div>
+
+  <div>
+    In particular, PREMISE aims to address interoperability between data from
+    simulations and experiments, a combination for which there are currently no
+    established RDM practices. To do so, PREMISE will...
+  </div>
+</div>
+
+<div class="text-center">
+  <h1>Our partners</h1>
+  <ul class="partners">
+    {% for partner in site.data.partners %}
+    <li>
+      <div class="square-image">
+        <img src="/assets/img/{{ partner.logo }}" alt="{{ partner.name }}" />
+      </div>
+      <div class="name">
+        <a href="{{ partner.link }}">{{ partner.name }}</a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

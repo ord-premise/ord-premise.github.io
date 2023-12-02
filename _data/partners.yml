@@ -1,0 +1,9 @@
+- name: BIG-MAP
+  link: "https://www.big-map.eu/"
+  logo: "big_map.png"
+- name: Battery 2030+
+  link: "https://battery2030.eu/"
+  logo: "battery_2030+.png"
+- name: NCCR Catalysis
+  link: "https://www.nccr-catalysis.ch/"
+  logo: "nccr_catalysis.jpg"
