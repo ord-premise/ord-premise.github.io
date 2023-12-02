@@ -1,0 +1,109 @@
+- name: PSI
+  description: Project Coordination | WFMS
+  members:
+    - name: Giovanni Pizzi
+      email: giovanni.pizzi@psi.ch
+      position: Project Lead
+      affiliation: PSI
+      page: https://www.psi.ch/en/lms/people/giovanni-pizzi
+      image: giovanni_pizzi.jpg
+    - name: Edan Bainglass
+      email: edan.bainglass@psi.ch
+      position: AiiDA-Core Developer
+      affiliation: PSI
+      page: https://www.psi.ch/en/lms/people/edan-bainglass
+      image: edan_bainglass.jpg
+      twitter:
+      github: edan-bainglass
+      blurb: Edan is a post-doctoral researcher at PSI.
+
+- name: ETHZ
+  description: ELN/LIMS
+  members:
+    - name: Bernd Rinn
+      email: brinn@ethz.ch
+      position: Project Lead
+      affiliation: ETHZ
+      page: https://ethz.ch/staffnet/en/organisation/departments/it-services/people/person-detail.bernd-rinn.html
+      image: bernd_rinn.jpg
+      blurb: Head of ETH Scientific IT Services.
+    - name: Caterina Barillari
+      email: caterina.barillari@id.ethz.ch
+      position: RDM Consultant
+      affiliation: ETHZ
+      page: https://ethz.ch/staffnet/en/organisation/departments/it-services/people/person-detail.MTg1NzU4.TGlzdC8zODgsLTg1MzU3NzMxNA==.html
+      image: caterina_barillari.jpg
+    - name: Mihai-Cosmin Danaila
+      email: mihaicosmin.danaila@ethz.ch
+      position: openBIS Developer
+      affiliation: ETHZ
+      page: https://ethz.ch/de/die-eth-zuerich/organisation/abteilungen/informatikdienste/personen/person-detail.MzI0ODY5.TGlzdC8zODgsNDQxMTkwMDI1.html
+      image: mihai_cosmin_danaila.jpg
+    - name: Juan Fuentes
+      email: juan.fuentes@id.ethz.ch
+      position: openBIS Lead Developer
+      affiliation: ETHZ
+      page: https://ethz.ch/staffnet/en/organisation/departments/it-services/people/person-detail.MTk3MzEy.TGlzdC8zODgsLTg1MzU3NzMxNA==.html
+      image: juan_fuentes.jpg
+    - name: Adam Laskowski
+      email: adam.laskowski@id.ethz.ch
+      position: openBIS Developer
+      affiliation: ETHZ
+      page: https://ethz.ch/staffnet/en/organisation/departments/it-services/people/person-detail.MTg1NzU4.TGlzdC8zODgsLTg1MzU3NzMxNA==.html
+      image: adam_laskowski.jpg
+
+- name: EMPA
+  description: Microscopy/Spectroscopy of Molecules on Substrates Lab
+  members:
+    - name: Carlo Pignedoli
+      email: carlo.pignedoli@empa.ch
+      position: Project Lead
+      affiliation: Empa
+      page: https://www.empa.ch/web/s205/carlo-pignedoli
+      image: carlo_pignedoli.jpg
+    - name: Fábio Da Costa Lopes
+      email: Fabio.DaCostaLopes@empa.ch
+      position: Developer
+      affiliation: Empa
+      page: https://www.empa.ch/web/s205/fabio-da-costa-lopes
+      image: fabio_dacostalopez.jpg
+    - name: Aliaksandr Yakutovich
+      email: caterina.barillari@id.ethz.ch
+      position: Scientific IT
+      affiliation: Empa
+      page: https://www.empa.ch/web/s205/aliaksandr-yakutovich
+      image: aliaksandr_yakutovich.jpg
+    - name: Simone Baffelli
+      email: simone.baffelli@empa.ch
+      position: Scientific IT
+      affiliation: Empa
+      page: https://www.empa.ch/web/s205/bruno-schuler
+      image: simone_baffelli.jpg
+    - name: Bruno Schuler
+      email: bruno.schuler@empa.ch
+      position: Experimental Consultant
+      affiliation: Empa
+      page: https://www.empa.ch/web/s205/bruno-schuler
+      image: bruno_schuler.png
+
+- name: EMPA
+  description: Autonomous Battery Assembly/Cycling Lab
+  members:
+    - name: Corsin Battaglia
+      email: corsin.battaglia@empa.ch
+      position: Project Lead
+      affiliation: Empa/ETHZ
+      page: https://mat.ethz.ch/department/people/person-detail.MjM4MTMz.TGlzdC8yNTQzLC0xNjM2MjE2MDE=.html
+      image: corsin_battaglia.jpg
+    - name: Nukorn Plainpan
+      email: nukorn.plainpan@empa.ch
+      position: Developer
+      affiliation: Empa
+      page: https://mat.ethz.ch/department/people/person-detail.MjM4MTMz.TGlzdC8yNTQzLC0xNjM2MjE2MDE=.html
+      image: nukorn_plainpan.jpg
+    - name: Peter Kraus
+      email: peter.kraus@ceramics.tu-berlin.de
+      position: Developer
+      affiliation: Empa/TU-Berlin
+      page: https://www.tu.berlin/concat/ueber-uns/peter-kraus
+      image: peter_kraus.jpg

@@ -1,0 +1,28 @@
+---
+layout: page
+title: Our Team
+subtitle: Who is PREMISE?
+---
+
+<div class="text-center">
+    {% for team in site.data.teams %}
+    <h2>{{ team.name }}</h2>
+    <div class="subtitle">{{ team.description }}</div>
+    <ul class="team">
+        {% for person in team.members %}
+        <li>
+            <div class="round-image">
+                <img
+                    src="/assets/img/team/{{ person.image }}"
+                    alt="{{ person.name }}"
+                />
+            </div>
+            <div class="name">
+                <a href="{{ person.page }}">{{ person.name }}</a>
+            </div>
+            <div class="position">{{ person.position }}</div>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</div>
