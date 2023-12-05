@@ -51,6 +51,12 @@
       affiliation: ETHZ
       page: https://ethz.ch/staffnet/en/organisation/departments/it-services/people/person-detail.MTg1NzU4.TGlzdC8zODgsLTg1MzU3NzMxNA==.html
       image: adam_laskowski.jpg
+    - name: Henry Lütcke
+      email: henry.lutcke@id.ethz.ch
+      position: Project Advisor
+      affiliation: ETHZ
+      page: https://ethz.ch/de/die-eth-zuerich/organisation/abteilungen/informatikdienste/personen/person-detail.MjA3MjQ4.TGlzdC8zODgsNDQxMTkwMDI1.html
+      image: henry_lutcke.png
 
 - name: EMPA
   description: Microscopy/Spectroscopy of Molecules on Substrates Lab
