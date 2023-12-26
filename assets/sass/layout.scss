@@ -171,3 +171,16 @@ blockquote {
     }
   }
 }
+
+.funding {
+  padding: 0;
+  list-style: none;
+
+  .description {
+    text-align: left;
+  }
+
+  .square-image {
+    margin: 0;
+  }
+}

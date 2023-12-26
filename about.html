@@ -42,4 +42,24 @@ subtitle: What is PREMISE?
     </li>
     {% endfor %}
   </ul>
+  <h1>Our funding</h1>
+  <ul class="funding">
+    {% for funder in site.data.funders %}
+    <li class="row col-xl-8 offset-xl-2 align-items-center">
+      <div class="col-md-4 offset-md-2">
+        <div class="square-image">
+          <a href="{{ funder.link }}">
+            <img
+              src="/assets/img/logos/{{ funder.logo }}"
+              alt="{{ funder.name }}"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6 description">
+        {{ funder.description }}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
