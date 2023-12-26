@@ -4,62 +4,80 @@ title: About Us
 subtitle: What is PREMISE?
 ---
 
-<div class="col-xl-10 offset-xl-1">
-  <p>PREMISE is...</p>
+<div class="col-xl-10 offset-xl-1 about">
 
-  <div class="text-center my-4">
-    <h1 class="mb-3">Our mission</h1>
+  <h1>Our motive</h1>
+
+  <p>ORD is a new paradigm that has the potential to transform science and open new research opportunities. However, ORD also comes with challenges, as effective ORD requires professional Research Data Management (RDM) throughout the data life cycle in accoradance to the FAIR data principles. This is not an easy task, and it is often perceived as a burden by researchers, not immediately counterbalanced by benefits. Consequently, adoption of correct practices for RDM and data sharing is still poor within the scientific community, where focus lies in publishing results and not on sharing “high-quality” curated datasets with correlated metadata needed to support the published scientific findings. Moreover, when complex analysis procedures are needed to investigate and understand physical phenomena, the computational steps and conditions used are often not accurately reported negatively impacting reproducibility. Clearly, these challenges must be addressed to make not only research data open, but also to provide solutions towards reproducibility.</p>
+
+  <p>The need to address this so-called reproducibility crisis became clearer at the “Machine-Actionable Data Interoperability for Chemical Sciences (<a class="link" href="https://madices.github.io/2022">MADICES</a>)” workshop organised by some of us in 2022. A survey of the chemistry and materials science communities revealed that lack of standards, incentives, tools, and discoverability are key to the delayed adoption of RDM practices. Thus, the development of standards and ontologies is key for data exchange between related fields of a given discipline, so that the process ultimately becomes machine-actionable and automated. The more the processes can be automated, the lower the burden will become for scientists, who will immediately see the benefits of their simplified day-to-day work. As a consequence, the adoption of FAIR RDM practices will become higher, and these automated RDM tools will assist researchers in becoming inspiring examples in their fields and Open Science leaders. However, such developments and their implementation in user-accessible software tools require a focused effort and domain-specific solutions. While the first, crucial step to enable this transition is the development of ORD practices in the form of protocols, standards, documentation, and ontology (and these will be the main deliverables of this project), only the availability of these ORD developments within open and accessible tools will enable their widespread adoption. Furthermore, we believe that a concrete implementation of these concepts into platforms that are already adopted by the community is needed to demonstrate that the developed ORD practices and concepts are practical and not too abstract.</p>
+
+  <p>As such, the PREMISE project aims to resolve the aforementioned challenges. </p>
+
+  <div>
+
+    <h1>Our mission</h1>
     <blockquote class="blockquote">
-      To establish, promote, and facilitate the adoption of ORD practices
-      adhering to the FAIR data principles in the field of Materials Science,
-      and to provide the missing critical components to enable open and
-      reproducible research in an accessible format that is shareable with the
-      broad scientific community
+      To establish, promote, and facilitate the adoption of ORD practices adhering to the FAIR data principles in the field of Materials Science, and to provide the missing critical components to enable open and reproducible research in an accessible format that is shareable with the broad scientific community.
     </blockquote>
+    <p>In particular, PREMISE aims to address interoperability between data from simulations and experiments, a combination for which there are currently no established RDM practices.</p>
+
   </div>
 
   <div>
-    In particular, PREMISE aims to address interoperability between data from
-    simulations and experiments, a combination for which there are currently no
-    established RDM practices. To do so, PREMISE will...
-  </div>
-</div>
 
-<div class="text-center">
-  <h1>Our partners</h1>
-  <ul class="partners">
-    {% for partner in site.data.partners %}
-    <li>
-      <div class="square-image">
-        <img
-          src="/assets/img/logos/{{ partner.logo }}"
-          alt="{{ partner.name }}"
-        />
-      </div>
-      <div class="name">
-        <a href="{{ partner.link }}">{{ partner.name }}</a>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-  <h1>Our funding</h1>
-  <ul class="funding">
-    {% for funder in site.data.funders %}
-    <li class="row col-xl-8 offset-xl-2 align-items-center">
-      <div class="col-md-4 offset-md-2">
+    <h1 class="text-center">Our goals</h1>
+    <p>We will first develop metadata standards for machine-actionable interoperability between electronic lab notebooks (ELNs)/lab information management systems (LIMSs) and workflow management systems (WFMSs), and apply these standards to Materials Science ontologies. We will then collect, design and disseminate best practices for generating ORD as a natural part of the research process, rather than as an additional duty for researchers. Our deliverables will be demonstrated with concrete pilot use cases, chosen to be applicable to the broad field of Materials Science, and generalisable to other disciplines. We will leverage two robust open platforms, developed and maintained within the ETH domain, compliant by design with FAIR requirements for experiments (openBIS) and simulations (AiiDA+AiiDAlab). We will bring them "to the next level" by implementing our novel set of ORD practices and demonstrating how an ELN/LIMS and a WFMS can be made seamlessly interoperable. We expect our deliverables to be essential components of the emerging field of autonomous laboratories, where automated simulations and robotic experiments are combined via artificial intelligence in closed feedback loops, ultimately accelerating materials discovery and characterisation. Our efforts will be split into five work packages (WP) shown in the figure below.</p>
+
+    <img
+      src="/assets/img/premise_plan.svg"
+      alt="PREMISE workpackages"
+    >
+
+    <p></p>
+
+  </div>
+
+  <div>
+
+    <h1>Our partners</h1>
+    <ul class="partners">
+      {% for partner in site.data.partners %}
+      <li>
         <div class="square-image">
-          <a href="{{ funder.link }}">
-            <img
-              src="/assets/img/logos/{{ funder.logo }}"
-              alt="{{ funder.name }}"
-            />
-          </a>
+          <img
+            src="/assets/img/logos/{{ partner.logo }}"
+            alt="{{ partner.name }}"
+          />
         </div>
-      </div>
-      <div class="col-md-6 description">
-        {{ funder.description }}
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
+        <div class="name">
+          <a href="{{ partner.link }}">{{ partner.name }}</a>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <h1>Our funding</h1>
+    <ul class="funding">
+      {% for funder in site.data.funders %}
+      <li class="row col-xl-10 offset-xl-1 align-items-center">
+        <div class="col-md-4 offset-md-2">
+          <div class="square-image">
+            <a href="{{ funder.link }}">
+              <img
+                src="/assets/img/logos/{{ funder.logo }}"
+                alt="{{ funder.name }}"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 description">
+          {{ funder.description }}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+
 </div>

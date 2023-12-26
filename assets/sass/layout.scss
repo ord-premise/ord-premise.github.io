@@ -172,6 +172,18 @@ blockquote {
   }
 }
 
+.about {
+  h1 {
+    text-align: center;
+  }
+  blockquote {
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
 .funding {
   padding: 0;
   list-style: none;
