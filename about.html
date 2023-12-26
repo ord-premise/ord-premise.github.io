@@ -31,7 +31,10 @@ subtitle: What is PREMISE?
     {% for partner in site.data.partners %}
     <li>
       <div class="square-image">
-        <img src="/assets/img/{{ partner.logo }}" alt="{{ partner.name }}" />
+        <img
+          src="/assets/img/logos/{{ partner.logo }}"
+          alt="{{ partner.name }}"
+        />
       </div>
       <div class="name">
         <a href="{{ partner.link }}">{{ partner.name }}</a>
