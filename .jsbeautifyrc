@@ -1,4 +1,5 @@
 {
   "end_with_newline": true,
-  "wrap_attributes": "force-expand-multiline"
+  "wrap_attributes": "force-expand-multiline",
+  "indent_size": 2
 }
