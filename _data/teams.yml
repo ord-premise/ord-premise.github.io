@@ -1,5 +1,9 @@
 - name: PSI
-  description: Project Coordination | WFMS
+  description:
+    role: Project Coordinator
+    responsibility: Conceptualization | Implementation | Testing
+    expertese: Software simulation and workflow management systems
+    tools: AiiDA/AiiDAlab
   members:
     - name: Giovanni Pizzi
       email: giovanni.pizzi@psi.ch
@@ -9,7 +13,7 @@
       image: giovanni_pizzi.jpg
     - name: Edan Bainglass
       email: edan.bainglass@psi.ch
-      position: AiiDA-Core Developer
+      position: AiiDA Developer
       affiliation: PSI
       page: https://www.psi.ch/en/lms/people/edan-bainglass
       image: edan_bainglass.jpg
@@ -18,7 +22,11 @@
       blurb: Edan is a post-doctoral researcher at PSI.
 
 - name: ETHZ
-  description: ELN/LIMS
+  description:
+    role: Contributor
+    responsibility: Conceptualization | Implementation | Testing
+    expertese: Electronic lab notebooks and laboratory information management systems
+    tools: openBIS
   members:
     - name: Bernd Rinn
       email: brinn@ethz.ch
@@ -59,7 +67,10 @@
       image: henry_lutcke.png
 
 - name: EMPA
-  description: Microscopy/Spectroscopy of Molecules on Substrates Lab
+  description:
+    role: Case Study 1
+    responsibility: Conceptualization | Implementation | Testing
+    expertese: Microscopy/spectroscopy of molecules on substrates
   members:
     - name: Carlo Pignedoli
       email: carlo.pignedoli@empa.ch
@@ -93,7 +104,10 @@
       image: bruno_schuler.png
 
 - name: EMPA
-  description: Autonomous Battery Assembly/Cycling Lab
+  description:
+    role: Case Study 2
+    responsibility: Conceptualization | Implementation | Testing
+    expertese: Autonomous battery assembly and cycling
   members:
     - name: Corsin Battaglia
       email: corsin.battaglia@empa.ch
