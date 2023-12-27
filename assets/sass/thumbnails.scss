@@ -27,28 +27,3 @@
     margin-top: 20px;
   }
 }
-
-.team {
-  @extend .thumbail-with-name;
-
-  .round-image {
-    width: 200px;
-    height: 200px;
-    img {
-      border-radius: 200px;
-    }
-  }
-
-  .position {
-    color: #666;
-  }
-}
-
-.partners {
-  @extend .thumbail-with-name;
-
-  .square-image {
-    width: 200px;
-    height: 200px;
-  }
-}
