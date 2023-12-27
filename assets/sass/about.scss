@@ -14,25 +14,13 @@
   p {
     text-align: left;
   }
-}
 
-.card-header {
-  button {
-    text-decoration: none;
-    text-align: left;
-    color: $second-brand-color;
+  .funding {
+    padding: 0;
+    list-style: none;
 
-    &:hover {
-      color: $third-brand-color;
+    .square-image {
+      margin: 0;
     }
-  }
-}
-
-.funding {
-  padding: 0;
-  list-style: none;
-
-  .square-image {
-    margin: 0;
   }
 }
