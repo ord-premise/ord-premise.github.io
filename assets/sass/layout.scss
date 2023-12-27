@@ -178,9 +178,15 @@ blockquote {
   }
   blockquote {
     text-align: center;
+
+    @media (max-width: 768px) {
+      margin: 0;
+      padding: 10px 0;
+      text-align: left;
+    }
   }
   p {
-    text-align: justify;
+    text-align: left;
   }
 }
 
