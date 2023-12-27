@@ -171,30 +171,3 @@ blockquote {
     }
   }
 }
-
-.about {
-  h1 {
-    text-align: center;
-  }
-  blockquote {
-    text-align: center;
-
-    @media (max-width: 768px) {
-      margin: 0;
-      padding: 10px 0;
-      text-align: left;
-    }
-  }
-  p {
-    text-align: left;
-  }
-}
-
-.funding {
-  padding: 0;
-  list-style: none;
-
-  .square-image {
-    margin: 0;
-  }
-}

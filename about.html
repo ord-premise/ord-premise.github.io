@@ -6,77 +6,237 @@ subtitle: What is PREMISE?
 
 <div class="col-xl-10 offset-xl-1 about">
 
-  <h1>Our motive</h1>
+  <p>
+    The PREMISE project, a Measure 1 Establish project of the ETH Board's Open Research Data (ORD) program, aims to build the infrastrucutre required to support the adoption of ORD standards and practices. ORD strives to make scientific research data publically available at all stages of the research life cycle. It is a new paradigm that has the potential to transform science and open new research opportunities.
+  </p>
 
-  <p>ORD is a new paradigm that has the potential to transform science and open new research opportunities. However, ORD also comes with challenges, as effective ORD requires professional Research Data Management (RDM) throughout the data life cycle in accoradance to the FAIR data principles. This is not an easy task, and it is often perceived as a burden by researchers, not immediately counterbalanced by benefits. Consequently, adoption of correct practices for RDM and data sharing is still poor within the scientific community, where focus lies in publishing results and not on sharing “high-quality” curated datasets with correlated metadata needed to support the published scientific findings. Moreover, when complex analysis procedures are needed to investigate and understand physical phenomena, the computational steps and conditions used are often not accurately reported negatively impacting reproducibility. Clearly, these challenges must be addressed to make not only research data open, but also to provide solutions towards reproducibility.</p>
+  <p>
+    However, ORD has its challenges, as an effective ORD requires professional Research Data Management (RDM) throughout the data life cycle in accoradance with the FAIR data principles. This is not an easy task and is often perceived as a burden on researchers, not immediately counterbalanced by its benefits. Consequently, adoption of correct practices for RDM and data sharing remains poor within the scientific community.
+  </p>
 
-  <p>The need to address this so-called reproducibility crisis became clearer at the “Machine-Actionable Data Interoperability for Chemical Sciences (<a class="link" href="https://madices.github.io/2022">MADICES</a>)” workshop organised by some of us in 2022. A survey of the chemistry and materials science communities revealed that lack of standards, incentives, tools, and discoverability are key to the delayed adoption of RDM practices. Thus, the development of standards and ontologies is key for data exchange between related fields of a given discipline, so that the process ultimately becomes machine-actionable and automated. The more the processes can be automated, the lower the burden will become for scientists, who will immediately see the benefits of their simplified day-to-day work. As a consequence, the adoption of FAIR RDM practices will become higher, and these automated RDM tools will assist researchers in becoming inspiring examples in their fields and Open Science leaders. However, such developments and their implementation in user-accessible software tools require a focused effort and domain-specific solutions. While the first, crucial step to enable this transition is the development of ORD practices in the form of protocols, standards, documentation, and ontology (and these will be the main deliverables of this project), only the availability of these ORD developments within open and accessible tools will enable their widespread adoption. Furthermore, we believe that a concrete implementation of these concepts into platforms that are already adopted by the community is needed to demonstrate that the developed ORD practices and concepts are practical and not too abstract.</p>
+  <p>
+    To better understand these challenges, we surveyed participants at the Machine-Actionable Data Interoperability for Chemical Sciences (<a href="https://madices.github.io/2022">MADICES</a>) workshop and found that lack of standards, incentives, tools, and discoverability were key to the delayed adoption of RDM practices.
+  </p>
 
-  <p>As such, the PREMISE project aims to resolve the aforementioned challenges. In particular, PREMISE aims to address interoperability between data from simulations and experiments, a combination for which there are currently no established RDM practices.</p>
+  <div class="d-flex justify-content-center">
+    <img
+      src="/assets/img/madices_survey.svg"
+      alt="MADICES survey results word cloud"
+    >
+  </div>
 
-  <div>
+  <p>
+    It is clear then that the development of standards and ontologies is key to the exchange of data between related fields, so that the process ultimately becomes machine-actionable and automated. The more the processes can be automated, the lower the burden becomes for scientists. As a consequence, the adoption of FAIR RDM practices will grow, with researchers becoming inspiring examples in their fields and Open Science leaders.
+  </p>
 
-    <h1>Our mission</h1>
-    <blockquote class="blockquote">
-      To establish, promote, and facilitate the adoption of ORD practices adhering to the FAIR data principles in the field of Materials Science, and to provide the missing critical components to enable open and reproducible research in an accessible format that is shareable with the broad scientific community.
-    </blockquote>
+  <p>
+    However, such developments and their implementation in user-accessible software tools require a focused effort and domain-specific solutions. While the first, crucial step to enable this transition is the development of ORD practices in the form of protocols, standards, documentation, and ontology, only the availability of these ORD developments within open and accessible tools will enable their widespread adoption.
+  </p>
+
+  <p>
+    Furthermore, a concrete implementation of these concepts into platforms that are already adopted by the community can demonstrate that the developed ORD practices and concepts are practical and not too abstract. As such, the PREMISE project will leverage existing tools to demonstrate interoperability between data from simulations and experiments, a combination for which currently no RDM practices exist.
+  </p>
+
+  <h2>Our mission</h2>
+  <blockquote class="blockquote">
+    To establish, promote, and facilitate the adoption of ORD practices adhering to the FAIR data principles in the field of Materials Science, and to provide the missing critical components to enable open and reproducible research in an accessible format that is shareable with the broad scientific community.
+  </blockquote>
+
+  <h2>Our goals</h2>
+  <p>The project is split into five work packages (WP):</p>
+
+  <div id="accordion">
+    <div class="card">
+      <div
+        class="card-header"
+        id="headingOne"
+      >
+        <h5 class="mb-0">
+          <button
+            class="btn btn-link"
+            data-toggle="collapse"
+            data-target="#collapseOne"
+            aria-expanded="false"
+            aria-controls="collapseOne"
+          >
+            WP 1: Enabling seamless integration of data from experimental and simulation workflows
+          </button>
+        </h5>
+      </div>
+
+      <div
+        id="collapseOne"
+        class="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordion"
+      >
+        <div class="card-body">
+          Develop metadata standards for machine-actionable interoperability between electronic lab notebooks (ELNs)/lab information management systems (LIMSs) and workflow management systems (WFMSs), apply these standards to Materials Science ontologies, and demostrate full integration via a closed-loop ELN-WFMS workflow
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div
+        class="card-header"
+        id="headingTwo"
+      >
+        <h5 class="mb-0">
+          <button
+            class="btn btn-link collapsed"
+            data-toggle="collapse"
+            data-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            WP 2: 1<sup>st</sup> use-case - open data from simulation-assisted experimental interpretation
+          </button>
+        </h5>
+      </div>
+      <div
+        id="collapseTwo"
+        class="collapse"
+        aria-labelledby="headingTwo"
+        data-parent="#accordion"
+      >
+        <div class="card-body">
+          Implement the standards and guidelines of WP 1 to simulation-assisted experiments, with particular focus to the broad fields of microscopy and spectroscopy, including automation of research data publishing to open repositories
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div
+        class="card-header"
+        id="headingThree"
+      >
+        <h5 class="mb-0">
+          <button
+            class="btn btn-link collapsed"
+            data-toggle="collapse"
+            data-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            WP 3: 2<sup>nd</sup> use-case - open data from workflow-driven robotic experiments
+          </button>
+        </h5>
+      </div>
+      <div
+        id="collapseThree"
+        class="collapse"
+        aria-labelledby="headingThree"
+        data-parent="#accordion"
+      >
+        <div class="card-body">
+          Implement the standards and guidelines of WP 1 to battery research, focusing on the development of a data schema for digital twins, and develop best practices for designing and implementing autonomous robotic materials science labs
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div
+        class="card-header"
+        id="headingFour"
+      >
+        <h5 class="mb-0">
+          <button
+            class="btn btn-link collapsed"
+            data-toggle="collapse"
+            data-target="#collapseFour"
+            aria-expanded="false"
+            aria-controls="collapseFour"
+          >
+            WP 4: Reproducible and accessible materials experiments and simulations
+          </button>
+        </h5>
+      </div>
+      <div
+        id="collapseFour"
+        class="collapse"
+        aria-labelledby="headingFour"
+        data-parent="#accordion"
+      >
+        <div class="card-body">
+          Design standard templates, visualizers, and modular interfaces for materials science, including common machine-actionable workflows to predict materials properties
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div
+        class="card-header"
+        id="headingFive"
+      >
+        <h5 class="mb-0">
+          <button
+            class="btn btn-link collapsed"
+            data-toggle="collapse"
+            data-target="#collapseFive"
+            aria-expanded="false"
+            aria-controls="collapseFive"
+          >
+            WP 5: Project management and outreach
+          </button>
+        </h5>
+      </div>
+      <div
+        id="collapseFive"
+        class="collapse"
+        aria-labelledby="headingFive"
+        data-parent="#accordion"
+      >
+        <div class="card-body">
+          Coordinate and manage project tasks and organise outreach via follow-up MADICES conferences and online presence
+        </div>
+      </div>
+    </div>
 
   </div>
 
-  <div>
-
-    <h1 class="text-center">Our goals</h1>
-    <p>We will first develop metadata standards for machine-actionable interoperability between electronic lab notebooks (ELNs)/lab information management systems (LIMSs) and workflow management systems (WFMSs), and apply these standards to Materials Science ontologies. We will then collect, design and disseminate best practices for generating ORD as a natural part of the research process, rather than as an additional duty for researchers. Our deliverables will be demonstrated with concrete pilot use cases, chosen to be applicable to the broad field of Materials Science, and generalisable to other disciplines. We will leverage two robust open platforms, developed and maintained within the ETH domain, compliant by design with FAIR requirements for experiments (openBIS) and simulations (AiiDA+AiiDAlab). We will bring them "to the next level" by implementing our novel set of ORD practices and demonstrating how an ELN/LIMS and a WFMS can be made seamlessly interoperable. We expect our deliverables to be essential components of the emerging field of autonomous laboratories, where automated simulations and robotic experiments are combined via artificial intelligence in closed feedback loops, ultimately accelerating materials discovery and characterisation. Our efforts will be split into five work packages (WP) shown in the figure below.</p>
-
+  <div class="d-flex justify-content-center my-5">
     <img
       src="/assets/img/premise_plan.svg"
-      alt="PREMISE workpackages"
+      alt="MADICES survey results word cloud"
     >
-
-    <p></p>
-
   </div>
 
-  <div>
+  <h2>Our partners</h2>
+  <ul class="partners">
+    {% for partner in site.data.partners %}
+    <li>
+      <div class="square-image">
+        <img
+          src="/assets/img/logos/{{ partner.logo }}"
+          alt="{{ partner.name }}"
+        />
+      </div>
+      <div class="name">
+        <a href="{{ partner.link }}">{{ partner.name }}</a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 
-    <h1>Our partners</h1>
-    <ul class="partners">
-      {% for partner in site.data.partners %}
-      <li>
+  <h2>Our funding</h2>
+  <ul class="funding col-lg-10 offset-lg-1">
+    {% for funder in site.data.funders %}
+    <li class="row align-items-center">
+      <div class="col-sm-4 offset-sm-2 d-flex justify-content-center">
         <div class="square-image">
-          <img
-            src="/assets/img/logos/{{ partner.logo }}"
-            alt="{{ partner.name }}"
-          />
+          <a href="{{ funder.link }}">
+            <img
+              src="/assets/img/logos/{{ funder.logo }}"
+              alt="{{ funder.name }}"
+            />
+          </a>
         </div>
-        <div class="name">
-          <a href="{{ partner.link }}">{{ partner.name }}</a>
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-
-    <h1>Our funding</h1>
-    <ul class="funding col-lg-10 offset-lg-1">
-      {% for funder in site.data.funders %}
-      <li class="row align-items-center">
-        <div class="col-sm-4 offset-sm-2 d-flex justify-content-center">
-          <div class="square-image">
-            <a href="{{ funder.link }}">
-              <img
-                src="/assets/img/logos/{{ funder.logo }}"
-                alt="{{ funder.name }}"
-              />
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 text-center text-sm-left">
-          {{ funder.description }}
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-
-  </div>
+      </div>
+      <div class="col-sm-6 text-center text-sm-left">
+        {{ funder.description }}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 
 </div>

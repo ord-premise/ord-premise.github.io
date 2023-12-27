@@ -8,7 +8,10 @@ a {
     color: $second-brand-color;
   }
 
-  &.link {
+}
+
+p {
+  a {
     color: $second-brand-color;
 
     &:hover {
