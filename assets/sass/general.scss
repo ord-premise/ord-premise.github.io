@@ -1,21 +1,11 @@
 a {
   text-decoration: none;
-  color: $text-color;
+  color: $second-brand-color;
   transition: color 0.2s ease-in-out;
 
   &:hover {
     text-decoration: none;
-    color: $second-brand-color;
+    color: $third-brand-color;
   }
 
-}
-
-p {
-  a {
-    color: $second-brand-color;
-
-    &:hover {
-      color: $third-brand-color;
-    }
-  }
 }
