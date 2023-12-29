@@ -1,28 +1,31 @@
-.card {
-  border: none;
-}
+#accordion {
+  .card {
+    border: none;
 
-.card-header {
-  margin-bottom: 5px;
-  border-radius: 5rem !important;
-  background-color: $brand-color;
-  transition: transform 0.1s ease-in-out;
+    .card-header {
+      margin-bottom: 5px;
+      border-radius: 5rem !important;
+      background-color: $brand-color;
+      transition: transform 0.1s ease-in-out;
+      cursor: pointer;
 
-  &:hover {
-    transform: scale(1.025);
+      &:hover {
+        transform: scale(1.025);
+      }
+
+      .btn-link {
+        text-align: left;
+        color: white;
+        text-decoration: none !important;
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
+
+    .card-body {
+      padding: 0.75rem 2.5rem 1.25rem;
+    }
   }
-}
-
-.btn-link{
-  text-align: left;
-  color: white;
-  text-decoration: none !important;
-
-  &:hover {
-    color: white;
-  }
-}
-
-.card-body {
-  padding: 0.75rem 2.5rem 1.25rem;
 }
