@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First in-person meeting
-subtitle: Introductions, hiring, and discussion 📆
+subtitle: Introductions, hiring, and discussion 💬
 tags: [meeting, launch]
 comments: true
 author: Edan Bainglass

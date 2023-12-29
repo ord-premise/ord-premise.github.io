@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MADICES 2 first pre-event meeting
-subtitle: Introductions, reminders, and discussion 📆
+subtitle: Introductions, reminders, and discussion 💬
 tags: [meeting, virtual]
 comments: true
 author: Edan Bainglass

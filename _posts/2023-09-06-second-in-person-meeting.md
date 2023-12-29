@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Second in-person meeting
-subtitle: Updates, hiring, and discussion 📆
+subtitle: Updates, hiring, and discussion 💬
 tags: [meeting]
 comments: true
 author: Edan Bainglass
