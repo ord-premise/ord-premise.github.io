@@ -1,0 +1,31 @@
+.tools {
+
+  .tool-header {
+    a {
+      color: $text-color;
+
+      &:hover {
+        text-decoration: none;
+        color: $third-brand-color;
+      }
+    }
+  }
+
+  .tool-logo {
+    display: block;
+    margin: auto;
+    padding-left: 30px;
+  }
+
+  @media (max-width: 576px) {
+    .tool-logo {
+      width: 50%;
+      margin: 20px auto;
+      padding: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -23,6 +23,7 @@ navbar-links:
   About: "about"
   Team: "team"
   Tools:
+    - all: "tools"
     - AiiDA: "https://aiida.net"
     - AiiDAlab: "https://aiidalab.net"
     - openBIS: "https://openBIS.ch"
