@@ -49,6 +49,15 @@ header {
     }
   }
 
+  .post-heading {
+    margin-top: 1rem;
+
+    .post-meta {
+      margin-bottom: 0 !important;
+      color: white;
+    }
+  }
+
 }
 
 .content {
