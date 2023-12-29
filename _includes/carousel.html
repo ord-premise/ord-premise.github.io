@@ -5,17 +5,17 @@
   class="carousel slide px-5"
   data-ride="carousel"
 >
-  <ul class="carousel-indicators">
+  <ol class="carousel-indicators">
     {% for post in posts %}
       <li
         data-target="#myCarousel"
         data-slide-to={{ forloop.index0 }}
       ></li>
     {% endfor %}
-  </ul>
+  </ol>
   <div class="carousel-inner">
     {% for post in posts %}
-      <div class="carousel-item {% if post.active %}active{% endif %}">
+      <div class="carousel-item {% if forloop.index0 == 0 %}active{% endif %}">
         <li class="post-preview">
           <article>
 
