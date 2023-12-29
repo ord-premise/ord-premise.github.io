@@ -57,7 +57,7 @@
       email: adam.laskowski@id.ethz.ch
       position: openBIS Developer
       affiliation: ETHZ
-      page: https://ethz.ch/staffnet/en/organisation/departments/it-services/people/person-detail.MTg1NzU4.TGlzdC8zODgsLTg1MzU3NzMxNA==.html
+      page: https://openbis.ch/index.php/our-team/
       image: adam_laskowski.jpg
     - name: Henry Lütcke
       email: henry.lutcke@id.ethz.ch
@@ -94,7 +94,7 @@
       email: simone.baffelli@empa.ch
       position: Scientific IT
       affiliation: Empa
-      page: https://www.empa.ch/web/s205/bruno-schuler
+      page: https://github.com/baffelli
       image: simone_baffelli.jpg
     - name: Bruno Schuler
       email: bruno.schuler@empa.ch
@@ -119,7 +119,7 @@
       email: nukorn.plainpan@empa.ch
       position: Developer
       affiliation: Empa
-      page: https://mat.ethz.ch/department/people/person-detail.MjM4MTMz.TGlzdC8yNTQzLC0xNjM2MjE2MDE=.html
+      page: https://www.empa.ch/web/s501/team
       image: nukorn_plainpan.jpg
     - name: Peter Kraus
       email: peter.kraus@ceramics.tu-berlin.de
