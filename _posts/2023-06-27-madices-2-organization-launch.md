@@ -7,11 +7,4 @@ comments: true
 author: Edan Bainglass
 ---
 
-The co-organizers of MADICES 2 met online for the first time to kick start organization and planning.
-
-## Discussion
-
-- Invitees (individuals, institution representation, discipline coverage)
-- Current funding capacity
-- Possible dates/locations
-- CECAM proposal plans
+The co-organizers of MADICES 2 met online for the first time to kick start organization and planning. Discussions focused on the intended audience, specific invitees, funding, dates/locations, and the CECAM proposal.

@@ -7,7 +7,7 @@ comments: true
 author: Edan Bainglass
 ---
 
-The first virtual meeting focused on ongoing efforts in both use-cases towards the first deliverables. We briefly discussed plans for the next MADICES conference and technical issues facing Empa w.r.t its network.
+The first virtual meeting focused on ongoing efforts in both use-cases towards the first deliverables. We briefly discussed plans for the next MADICES conference and general technical issues.
 
 ## Discussion
 
@@ -19,11 +19,11 @@ The first virtual meeting focused on ongoing efforts in both use-cases towards t
   - Matthew Evans\*
   - Peter Kraus\*
   - Kevin Jablonka\*
-- Proposal to be written targeting CECAM
+- Proposal targeting CECAM
 - Goals
   - Implement common "neutral" format for ELN data interchange
-  - Cover PREMISE needs
-  - Suggest adoption of RDF standards
+  - Cover PREMISE interoperability interests
+  - Discuss adoption of RDF standards
 
 #### Use-cases
 
