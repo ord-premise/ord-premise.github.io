@@ -1,20 +1,25 @@
 - name: AiiDA
+  type: internal
   logo: aiida.svg
   url: https://aiida.net/
   description: Aiida is an open-source Python infrastructure to help researchers with automating, managing, persisting, sharing and reproducing the complex workflows associated with modern computational science and all associated data
 - name: AiiDAlab
+  type: internal
   logo: aiidalab.svg
   url: https://aiidalab.net/
   description: AiiDAlab is a web platform that enables computational scientists to package scientific workflows and computational environments into “apps” and share them with collaborators and peers. The platform leverages AiiDA for its computational workflow engine, and Jupyter for its notebooks and widgets.
 - name: openBIS
+  type: internal
   logo: openbis.svg
   url: https://openbis.ch/
   description: OpenBIS (Open Biological Information System) is an open-source software framework designed for managing and analyzing biological data in research environments. It provides a flexible infrastructure to store, retrieve, and analyze diverse types of biological data, such as genomics, proteomics, imaging, and more.
 - name: tomato
+  type: external
   logo: tomato.svg
   url: https://dgbowl.github.io/tomato/master/index.html
   description: Tomato is an instrument automation package used in autonomous battery cycling lab at Empa to interact with BioLogic potentiostats via the EC-Lib library during cycling experiments.
 - name: Protégé
+  type: external
   logo: protege.svg
   url: https://protege.stanford.edu/
   description: Protege is a free, open-source platform used for building and managing ontologies. Protege provides a user-friendly interface where individuals and teams can create, edit, visualize, and maintain ontologies. It's widely used in various fields, including artificial intelligence, biomedical research, software development, and more, to structure and organize information in a way that computers can understand. The platform offers flexibility and tools to customize ontologies based on specific needs, enabling collaborative work and facilitating the integration of information across different systems and applications.

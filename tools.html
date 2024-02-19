@@ -6,26 +6,16 @@ subtitle: What does PREMISE use?
 
 <p>As we work to develop the standards and guidelines needed to support data interoperability, we will leverage on various tools along the way. Some are developed and maintained by us, while others are done so in collaboration with developers across the ORD community. We may also at times choose to use tools external to PREMISE. Below are all the tools used in the project.</p>
 
+{% assign internals = site.data.tools | where: "type", "internal" %}
+{% assign externals = site.data.tools | where: "type", "external" %}
+
+
 <div class="tools offset-lg-1 col-lg-10">
-  {% for tool in site.data.tools %}
-    <div class="tool">
-      <div class="row align-items-center">
-        <div class="col-12 col-sm-7">
-          <h2 class="tool-header">
-            <a href="{{ tool.url }}">{{ tool.name }}</a>
-          </h2>
-          <p class="tool-details">
-            {{ tool.description }}
-          </p>
-        </div>
-        <div class="col-12 col-sm-5">
-          <img
-            class="tool-logo"
-            src="/assets/img/logos/{{ tool.logo }}"
-            alt="{{ tool.name }} logo"
-          >
-        </div>
-      </div>
-    </div>
-  {% endfor %}
+
+  <h1>Internal</h1>
+  {% include tool.html tools=internals %}
+
+  <h1>External</h1>
+  {% include tool.html tools=externals %}
+
 </div>

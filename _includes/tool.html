@@ -1,0 +1,23 @@
+{% assign tools = include.tools %}
+
+{% for tool in tools %}
+  <div class="tool">
+    <div class="row align-items-center">
+      <div class="col-12 col-sm-7">
+        <h2 class="tool-header">
+          <a href="{{ tool.url }}">{{ tool.name }}</a>
+        </h2>
+        <p class="tool-details">
+          {{ tool.description }}
+        </p>
+      </div>
+      <div class="col-12 col-sm-5">
+        <img
+          class="tool-logo"
+          src="/assets/img/logos/{{ tool.logo }}"
+          alt="{{ tool.name }} logo"
+        >
+      </div>
+    </div>
+  </div>
+{% endfor %}
