@@ -1,0 +1,32 @@
+- category: papers
+  items:
+  - title: 'A bridge between trust and control: Computational workflows meet automated battery cycling (2024)'
+    authors: P. Kraus et al.
+    link: https://chemrxiv.org/engage/chemrxiv/article-details/6549ec72c573f893f1fb3626
+    description: This paper discusses the first-ever integration of a workflow manager system (AiiDA) with an autonomous battery assembly/cycling platform (Aurora).
+  - title: How to verify the precision of density-functional-theory implementations via reproducible and universal workflows, Nature Reviews Physics 6, 45–58 (2024)
+    authors: E. Bosoni et al.
+    link: https://www.nature.com/articles/s42254-023-00655-3
+    description: This paper provides an expert recommendation on how to verify the numerical correctness, or precision, of simulations performed at the DFT level. This paper both consistutes an important milestone for error estimation of simulations, and demonstrates the use of 11 different simulation codes interoperably, with the same input and outputs across them.
+  - title: Developments and applications of the OPTIMADE API for materials discovery, design, and data exchange (2024)
+    authors: M. L. Evans et al.
+    link: https://arxiv.org/abs/2402.00572
+    description: This review discusses the interoperability of softwares used to simulate materials properties leveraging Wannier functions, and formalises the existence of an ecosystem of interoperable codes.
+  - title: The Wannier-Functions Software Ecosystem for Materials Simulations (2023)
+    authors: A. Marrazzo et al.
+    link: https://arxiv.org/abs/2312.10769
+    description: This paper discusses the recent advances of the OPTIMADE API, a REST API to provide access to crystal structure data from tens of different database online, both from simulations and from experiments, enabling interoperability of experimental and simulation data in the domain of material science.
+- category: presentations
+  items:
+  - title: Towards an autonomous robotic battery innovation platform
+    authors: Edan Bainglass, Corsin Battaglia
+    link: https://battery2030.eu/news/activities/big-map-workshop-towards-a-unified-future/
+    description: At the BIG-MAP EUnified Battery Data Space workshop (2024), we've presented an overview and demonstration of the Aurora project.
+- category: metadata schemas
+  items:
+  - title: Microscopy/spectroscopy in surface science
+    authors: Fabio Da Costa Lopez, Carlo A. Pignedoli
+    link: https://github.com/nanotech-empa/nanotech-premise
+    description: Under WP2, we've developed a metadata schema mapping experiments and simulations of microscopy/spectroscopy of molecules on surfaces.
+
+# In addition to https://doi.org/10.26434/chemrxiv-2023-4vs5w that you already probably are including, I have the following 3 papers with an acknowledgment to PREMISE:

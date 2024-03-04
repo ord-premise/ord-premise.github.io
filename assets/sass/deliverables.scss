@@ -1,8 +1,24 @@
-.deliverables-list {
-  list-style-type: none;
+.deliverables {
+  h2 {
+    text-align: center;
+  }
 
-  li {
-    @extend .checkmark;
-    margin: 0.5em 0;
+  ul {
+    list-style-type: none;
+
+    li {
+      @extend .checkmark;
+      margin: 0.5em 0;
+
+      .header {
+        font-size: large;
+        font-weight: normal;
+      }
+
+      .authors {
+        font-weight: bold;
+        font-style: italic;
+      }
+    }
   }
 }
