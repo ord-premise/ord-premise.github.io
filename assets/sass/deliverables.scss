@@ -1,0 +1,8 @@
+.deliverables-list {
+  list-style-type: none;
+
+  li {
+    @extend .checkmark;
+    margin: 0.5em 0;
+  }
+}
