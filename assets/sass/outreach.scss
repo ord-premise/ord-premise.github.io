@@ -1,4 +1,4 @@
-.deliverables {
+.outreach {
   h2 {
     text-align: center;
   }
@@ -7,7 +7,6 @@
     list-style-type: none;
 
     li {
-      @extend .checkmark;
       margin: 0.5em 0;
 
       .header {
@@ -19,6 +18,14 @@
         font-weight: bold;
         font-style: italic;
       }
+    }
+
+    &.publications li {
+      @extend .publication-bullet;
+    }
+
+    &.presentations li {
+      @extend .presentation-bullet;
     }
   }
 }

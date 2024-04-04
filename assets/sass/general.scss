@@ -9,7 +9,7 @@ a {
   }
 }
 
-.checkmark {
+.list-bullet {
   position: relative;
   padding-left: 1em;
 
@@ -17,12 +17,37 @@ a {
     content: "";
     display: inline-block;
     position: absolute;
-    left: -0.5em;
+    left: -0.75em;
+  }
+}
+
+.checkmark {
+  @extend .list-bullet;
+
+  &::before {
     top: 0;
     transform: rotate(45deg);
     height: 1em;
     width: 0.5em;
     border-bottom: 0.25em solid $brand-color;
     border-right: 0.25em solid $brand-color;
+  }
+}
+
+.publication-bullet {
+  @extend .list-bullet;
+
+  &::before {
+    content: "📄";
+    top: -0.25em;
+  }
+}
+
+.presentation-bullet {
+  @extend .list-bullet;
+
+  &::before {
+    content: "📹";
+    top: -0.4em;
   }
 }

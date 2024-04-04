@@ -22,7 +22,8 @@ author: PREMISE team
 navbar-links:
   About: "about"
   Team: "team"
-  Deliverables: "deliverables"
+  Work Packages: "workpackages"
+  Outreach: "outreach"
   Tools:
     - all: "tools"
     - AiiDA: "https://aiida.net"

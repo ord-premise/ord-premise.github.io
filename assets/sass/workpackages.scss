@@ -1,0 +1,151 @@
+.workpackages {
+  #wp-intro {
+    margin-bottom: 1em;
+  }
+
+  #wp-legend {
+    height: 0;
+    transition: height 0.5s ease-in-out;
+
+    &.visible {
+      height: 3.5em;
+    }
+
+    ol {
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      padding: 0;
+    }
+
+    li {
+      color: white;
+      margin: 0 0.5em;
+      padding: 0.5em 1em;
+    }
+  }
+
+  #wp-accordion {
+    margin: 0 1em;
+  }
+
+  .card {
+    border: none;
+
+    .btn-link {
+      width: 100%;
+      text-align: left;
+      text-decoration: none !important;
+    }
+  }
+
+  .wp-card {
+    .wp-header {
+      margin-bottom: .5rem;
+      border-radius: 2rem !important;
+      background-color: $text-color;
+      transition: transform 0.2s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.025);
+      }
+
+      .wp-btn-link {
+        color: white;
+
+        &:hover {
+          color: white;
+        }
+      }
+
+      .wp-tag {
+        padding: 1.4em 1em;
+        margin-left: -2.5em;
+        margin-right: 0.5em;
+        background-color: darken($brand-color, 10%);
+        border-radius: 2em !important;
+      }
+    }
+
+    .wp-body {
+      padding: 0.75rem 2.5rem 1.25rem;
+
+      .wp-description {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .deliverable-card {
+    &:nth-child(odd) .deliverable-header {
+      background-color: rgb(240, 240, 240);
+    }
+
+    &:nth-child(even) .deliverable-header {
+      background-color: rgb(250, 250, 250);
+    }
+
+    .deliverable-header {
+      transition: background-color 0.1s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(230, 230, 230);
+      }
+
+      .deliverable-btn-link {
+        color: $text-color;
+        padding: 0;
+        margin: 0;
+      }
+
+      .deliverable-tag {
+        margin: -1px;
+        padding: 10px 5px;
+        width: 50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .deliverable-title {
+        flex: 0 0 90%;
+        padding: 10px;
+      }
+    }
+
+    .deliverable-body {
+      border: 1px solid rgb(200, 200, 200);
+      padding: 1rem 4rem 1rem 60px;
+
+      .deliverable-authors {
+        font-weight: bold;
+        font-style: italic;
+        font-size: medium;
+        margin-bottom: 1rem;
+      }
+
+      .deliverable-description {
+        margin: 0;
+      }
+
+      .deliverable-link {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .completed {
+    background-color: #5fac48;
+  }
+
+  .in-progress {
+    background-color: #0096de;
+  }
+
+  .planned {
+    background-color: #ee781e;
+  }
+}

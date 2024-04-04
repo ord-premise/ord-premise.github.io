@@ -1,15 +1,184 @@
-- id: WP1
-  header: "WP 1: Enabling seamless integration of data from experimental and simulation workflows"
-  content: "Develop metadata standards for machine-actionable interoperability between electronic lab notebooks (ELNs)/lab information management systems (LIMSs) and workflow management systems (WFMSs), apply these standards to Materials Science ontologies, and demostrate full integration via a closed-loop ELN-WFMS workflow"
-- id: WP2
-  header: "WP 2: 1<sup>st</sup> use-case - open data from simulation-assisted experimental interpretation"
-  content: "Implement the standards and guidelines of WP 1 to simulation-assisted experiments, with particular focus to the broad fields of microscopy and spectroscopy, including automation of research data publishing to open repositories"
-- id: WP3
-  header: "WP 3: 2<sup>nd</sup> use-case - open data from workflow-driven robotic experiments"
-  content: "Implement the standards and guidelines of WP 1 to battery research, focusing on the development of a data schema for digital twins, and develop best practices for designing and implementing autonomous robotic materials science labs"
-- id: WP4
-  header: "WP 4: Reproducible and accessible materials experiments and simulations"
-  content: "Design standard templates, visualizers, and modular interfaces for materials science, including common machine-actionable workflows to predict materials properties"
-- id: WP5
-  header: "WP 5: Project management and outreach"
-  content: "Coordinate and manage project tasks and organise outreach via follow-up MADICES conferences and online presence"
+- header: "Enabling seamless integration of data from experimental and simulation workflows"
+  description: "Develop metadata standards for machine-actionable interoperability between electronic lab notebooks (ELNs)/lab information management systems (LIMSs) and workflow management systems (WFMSs), apply these standards to Materials Science ontologies, and demostrate full integration via a closed-loop ELN-WFMS workflow"
+  deliverables:
+    - tag: D1.1
+      title: Metadata schema and documentation/white paper for interoperable experimental-simulation materials science
+      authors:
+        - Nukorn Plainpan
+        - Fabio Andre DaCostaLopes
+        - Edan Bainglass
+        - Caterina Barillari
+        - Corsin Battaglia
+        - Carlo Pignedoli
+        - Giovanni Pizzi
+      description: A documentation of our gained experience in the development and usage of ontologies to facilitate interoperability in experimental-simulation materials science research.
+      link: https://github.com/ord-premise/interoperability-guidelines
+      status: completed
+
+    - tag: D1.2
+      title: First demonstration of AiiDAlab-openBIS interoperability supporting newly defined metadata schemas and practices
+      authors:
+        - Nukorn Plainpan
+        - Fabio Andre DaCostaLopes
+        - Edan Bainglass
+      description: A first demonstration of interoperability between an ELN and a WFMS following best-practices detailed in D1.1 leveraging its metadata schemas.
+      link:
+      status: in-progress
+
+    - tag: D1.3
+      title: Full interoperability of ELNs and WFMSs demonstrated for openBIS and AiiDAlab
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned
+
+    - tag: D1.4
+      title: General documentation and technical specifications of the metadata requirements for automated publishing of FAIR ORD into open repositories
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned
+
+- header: "1<sup>st</sup> use-case - open data from simulation-assisted experimental interpretation"
+  description: "Implement the standards and guidelines of WP 1 to simulation-assisted experiments, with particular focus to the broad fields of microscopy and spectroscopy, including automation of research data publishing to open repositories"
+  deliverables:
+    - tag: D2.1
+      title: Common data/metadata format to store and access microscopy data from simulations and experiments in a single platform and visualize within the same GUI
+      authors:
+        - Fabio Da Costa Lopez
+        - Carlo A. Pignedoli
+      description: The first version of a metadata schema mapping experiments and simulations of microscopy/spectroscopy of molecules on surfaces.
+      link: https://github.com/ord-premise/metadata-spectroscopy
+      status: in-progress
+
+    - tag: D2.2
+      title: Demonstration of full interoperability of an ELN-LIMS and a WFMS, leveraging D1.3, for microscopy experiments, with full provenance of microscopy simulations integrated back in the original ELN-LIMS, alongside the corresponding experimental data
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned
+
+    - tag: D2.3
+      title: Export functionality of the combined computational/experimental data for a microscopy research project to an ORD repository, decorated with corresponding metadata in standard formats
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned
+
+- header: "2<sup>nd</sup> use-case - open data from workflow-driven robotic experiments"
+  description: "Implement the standards and guidelines of WP 1 to battery research, focusing on the development of a data schema for digital twins, and develop best practices for designing and implementing autonomous robotic materials science labs"
+  deliverables:
+    - tag: D3.1
+      title: Data schema for a digital twin applicable in battery research
+      authors:
+        - Nukorn Plainpan
+        - Corsin Battaglia
+      description: The first version of an ontologized metadata schema for digital twins in battery research, specifically coin-cell assembly and cycling studies.
+      link: https://github.com/ord-premise/metadata-batteries
+      status: completed
+
+    - tag: D3.2
+      title: Design recommendations for user interfaces to interact with digital twins
+      authors:
+        - Edan Bainglass
+        - Giovanni Pizzi
+      description: A documentation of our gained experience in designing user interfaces to interact with digital twins. We provide here a set of recommendations for designing such interfaces both in ELNs and WFMSs, covering storage, history tracking, analysis tools, and more, with an emphasis on user experience.
+      link: https://github.com/ord-premise/digital-twins-interface-design
+      status: completed
+
+    - tag: D3.3
+      title: Domain-specific language for battery assembly and testing, and its implementation in a hardware scheduler
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned
+
+    - tag: D3.4
+      title: Association of cell assembly and testing data via a digital twin, and an implementation for integrating battery-cell history containing both automated and manual data
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned
+
+    - tag: D3.5
+      title: Report containing recommendations for enabling automated experimentation, including design of digital twins, domain specific languages, integration of manual and automated experiments
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned
+
+- header: "Reproducible and accessible materials experiments and simulations"
+  description: "Design standard templates, visualizers, and modular interfaces for materials science, including common machine-actionable workflows to predict materials properties"
+  deliverables:
+    - tag: D4.1
+      title: Fully customized version for Materials Science for openBIS, bringing openBIS to the next level
+      authors:
+      description: Description coming soon.
+      link:
+      status: in-progress
+
+    - tag: D4.2
+      title: Release technical specifications, in machine-actionable metadata formats, for common workflow interfaces
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned
+
+    - tag: D4.3
+      title: Release demonstrator implementation for selected AiiDA common workflows of use in WP2
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned
+
+    - tag: D4.4
+      title: Release of documentation of the design of a GUI accessible to non-experts of simulations, and pilot implementation for at least one common workflow interface
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned
+
+- header: "Project management and outreach"
+  description: "Coordinate and manage project tasks and organise outreach via follow-up MADICES conferences and online presence"
+  deliverables:
+    - tag: D5.1
+      title: Yearly MADICES workshop, first year - merged with D5.3
+      authors:
+      description: Description coming soon.
+      link:
+      status: in-progress
+
+    - tag: D5.2
+      title: First scientific and financial report
+      authors:
+      description: Description coming soon.
+      link:
+      status: in-progress
+
+    - tag: D5.3
+      title: Yearly MADICES workshop, second year - merged with D5.1
+      authors:
+      description: See D5.1
+      link:
+      status: in-progress
+
+    - tag: D5.4
+      title: Second final scientific and financial report
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned
+
+    - tag: D5.5
+      title: Yearly MADICES workshop, third year
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned
+
+    - tag: D5.6
+      title: Key white papers, scientific publications and documentation on the results of the whole project
+      authors:
+      description: Description coming soon.
+      link:
+      status: planned

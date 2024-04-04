@@ -1,0 +1,113 @@
+---
+layout: page
+title: Our Work Packages
+subtitle: ...and their milestones
+---
+
+<div class="workpackages">
+  <p id="wp-intro">The tasks of the PREMISE project are split into five work packages (WP), each with its own set of deliverables. You can learn more about the specific goal and expected deliverables of each work package by clicking on it below. We will add information and links to deliverables over time as we address them.</p>
+  <div id="wp-legend">
+    <ol>
+      <li class="planned">planned</li>
+      <li class="in-progress">in-progress</li>
+      <li class="completed">completed</li>
+    </ol>
+  </div>
+  <div id="wp-accordion">
+    {% for wp in site.data.workpackages %}
+      <div class="card wp-card">
+        <div
+          id="heading-{{ forloop.index }}"
+          class="card-header wp-header"
+          role="button">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link wp-btn-link"
+              data-toggle="collapse"
+              data-target="#collapse-{{ forloop.index }}"
+              aria-expanded="false"
+              aria-controls="collapse-{{ forloop.index }}">
+              <span class="wp-tag">WP {{ forloop.index }}</span>
+              {{ wp.header }}
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapse-{{ forloop.index }}"
+          class="collapse wp-collapse"
+          data-parent="#wp-accordion"
+          aria-labelledby="heading-{{ forloop.index }}">
+          <div class="card-body wp-body">
+            <div id="accordion-{{ forloop.index }}">
+              <p class="wp-description">{{ wp.description }}</p>
+              {% for deliverable in wp.deliverables %}
+                <div class="card deliverable-card">
+                  <div
+                    id="heading-{{ forloop.parentloop.index }}-{{ forloop.index }}"
+                    class="deliverable-header"
+                    role="button">
+                    <h5 class="mb-0">
+                      <button
+                        class="btn btn-link deliverable-btn-link collapsed"
+                        data-toggle="collapse"
+                        data-target="#collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}"
+                        aria-expanded="false"
+                        aria-controls="collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}">
+                        <div class="row mx-0">
+                          <div class="deliverable-tag {{ deliverable.status }}">
+                            {{ deliverable.tag }}
+                          </div>
+                          <div class="deliverable-title">
+                            {{ deliverable.title }}
+                          </div>
+                        </div>
+                      </button>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}"
+                    class="collapse"
+                    data-parent="#accordion-{{ forloop.parentloop.index }}"
+                    aria-labelledby="heading-{{ forloop.parentloop.index }}-{{ forloop.index }}">
+                    <div class="card-body deliverable-body">
+                      {% if deliverable.authors %}
+                        <div class="deliverable-authors">
+                          {% for author in deliverable.authors %}
+                            {{ author }}{% unless forloop.last %},{% endunless %}
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                      <p class="deliverable-description">
+                        {{ deliverable.description }}
+                      </p>
+                      {% if deliverable.link %}
+                        <div class="deliverable-link">
+                          <a href="{{ deliverable.link }}">{{ deliverable.link }}</a>
+                        </div>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  var legend = document.querySelector('#wp-legend');
+  var buttons = document.querySelectorAll('.wp-btn-link');
+  buttons.forEach((button) => {
+    button.addEventListener('click', (event) => {
+      var collapseTarget = document.querySelector(button.getAttribute('data-target'));
+      if (collapseTarget.classList.contains('show')) {
+        legend.classList.remove('visible');
+      } else {
+        legend.classList.add('visible');
+      }
+    })
+  })
+</script>

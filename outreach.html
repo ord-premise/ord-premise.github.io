@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Our Deliverables
-subtitle: What we've done
+title: Our Outreach
+subtitle: Publications & Presentations
 ---
 
-<div class="deliverables">
-  {% for deliverable in site.data.deliverables %}
-    <h2>{{ deliverable.category | capitalize }}</h2>
-    <ul>
-      {% for item in deliverable.items %}
+<div class="outreach">
+  {% for category in site.data.outreach %}
+    <h2>{{ category.name | capitalize }}</h2>
+    <ul class="{{ category.name }}">
+      {% for item in category.items %}
         <li>
           <h3 class="header">
             <a class="link" href={{ item.link }}>{{ item.title }}</a>
