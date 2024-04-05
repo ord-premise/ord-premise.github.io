@@ -5,7 +5,16 @@
 
   #wp-legend {
     height: 0;
+    font-size: large;
     transition: height 0.5s ease-in-out;
+
+    @media screen and (max-width: 392px) {
+      font-size: medium;
+    }
+
+    @media screen and (max-width: 352px) {
+      font-size: small;
+    }
 
     &.visible {
       height: 3.5em;
@@ -21,28 +30,57 @@
     li {
       color: white;
       margin: 0 0.5em;
-      padding: 0.5em 1em;
+      padding: 0.5em;
     }
   }
 
   #wp-accordion {
-    margin: 0 1em;
+    margin: 0;
   }
 
   .card {
     border: none;
+  }
 
-    .btn-link {
-      width: 100%;
-      text-align: left;
-      text-decoration: none !important;
+  .card-body {
+    padding: 0;
+  }
+
+  .title {
+    flex: 0 0 90%;
+    padding: 10px;
+
+    @media screen and (max-width: 572px) {
+      flex: 0 0 85%;
+    }
+
+    @media screen and (max-width: 392px) {
+      flex: 0 0 80%;
     }
   }
 
   .wp-card {
+    .btn-link {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      text-decoration: none !important;
+    }
+
+    .tag {
+      width: 55px;
+      margin: -1px;
+      margin-right: 0;
+      padding: 10px 5px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     .wp-header {
-      margin-bottom: .5rem;
-      border-radius: 2rem !important;
+      margin-bottom: 0.5em;
       background-color: $text-color;
       transition: transform 0.2s ease-in-out;
       cursor: pointer;
@@ -60,19 +98,21 @@
       }
 
       .wp-tag {
-        padding: 1.4em 1em;
-        margin-left: -2.5em;
-        margin-right: 0.5em;
+        @extend .tag;
         background-color: darken($brand-color, 10%);
-        border-radius: 2em !important;
+      }
+
+      .wp-title {
+        flex: 0 0 85%;
+        padding: 10px;
       }
     }
 
     .wp-body {
-      padding: 0.75rem 2.5rem 1.25rem;
+      padding-bottom: 1em;
 
       .wp-description {
-        margin-top: 0;
+        margin: 0 0 1em;
       }
     }
   }
@@ -96,29 +136,21 @@
 
       .deliverable-btn-link {
         color: $text-color;
-        padding: 0;
-        margin: 0;
       }
 
       .deliverable-tag {
-        margin: -1px;
-        padding: 10px 5px;
-        width: 50px;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend .tag;
       }
 
       .deliverable-title {
-        flex: 0 0 90%;
+        flex: 0 0 85%;
         padding: 10px;
       }
     }
 
     .deliverable-body {
-      border: 1px solid rgb(200, 200, 200);
-      padding: 1rem 4rem 1rem 60px;
+      padding: 1em;
+      border: 1px solid rgb(225, 225, 225);
 
       .deliverable-authors {
         font-weight: bold;
