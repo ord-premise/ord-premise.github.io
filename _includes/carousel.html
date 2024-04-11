@@ -1,4 +1,4 @@
-{% assign posts = include.posts %}
+{% assign posts = include.posts | sort: 'date' | reverse %}
 
 <div
   id="myCarousel"
