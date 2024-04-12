@@ -7,3 +7,7 @@
 - name: NCCR Catalysis
   link: "https://www.nccr-catalysis.ch/"
   logo: "nccr_catalysis.jpg"
+- name: MARVEL
+  link: "https://nccr-marvel.ch/"
+  logo: "marvel.png"
+  description: "PREMISE is supported by the tools developed under the NCCR MARVEL program"
