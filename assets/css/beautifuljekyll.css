@@ -214,8 +214,8 @@ img {
 
 @media (min-width: 1200px) {
   .navbar-custom {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .navbar-custom .navbar-brand-logo {
@@ -279,8 +279,8 @@ img {
 
   .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
     padding-left: 0.625rem;
-    border: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
     border-width: 0 1px 1px;
+    border: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   }
 
   .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item:first-child {
@@ -288,10 +288,10 @@ img {
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   .navbar-custom .navbar-collapse {
-    border-top: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
     margin: 0 -1rem;
+    border-top: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   }
 
   .navbar-custom .navbar-nav {
@@ -322,11 +322,8 @@ img {
 .navbar-custom .avatar-container {
   position: absolute;
   left: 50%;
-  width: 3.125rem;
-  bottom: -1.5rem;
-  transition: opacity 0.5s ease-in-out;
-  -webkit-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
+  width: 5rem;
+  bottom: -2.5rem;
 }
 .navbar-custom.top-nav-short .avatar-container {
   opacity: 0;
@@ -358,14 +355,9 @@ img {
   display: none;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1199px) {
   .navbar-custom.top-nav-regular .avatar-container {
-    width: 5rem;
-    bottom: -2.5rem;
-  }
-
-  .navbar-custom.top-nav-regular .avatar-container .avatar-img {
-    width: 100%;
+    display: none;
   }
 }
 
@@ -1071,7 +1063,7 @@ pre {
   display: none;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   #nav-search-icon {
     display: none;
   }
