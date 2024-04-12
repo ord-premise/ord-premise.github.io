@@ -1,22 +1,52 @@
 ---
 layout: page
 title: Our Outreach
-subtitle: Publications & Presentations
+subtitle: Publications, presentations, press releases
 ---
 
 <div class="outreach">
-  {% for category in site.data.outreach %}
-    <h2>{{ category.name | capitalize }}</h2>
-    <ul class="{{ category.name }}">
-      {% for item in category.items %}
-        <li>
-          <h3 class="header">
-            <a class="link" href={{ item.link }}>{{ item.title }}</a>
-          </h3>
-          <div class="authors">{{ item.authors }}</div>
-          <div class="description">{{ item.description }}</div>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endfor %}
+  <h2>Publications</h2>
+  <ul class="publications">
+    {% for publication in site.data.outreach.publications %}
+      <li class="publication">
+        <h3 class="header">
+          <a href="{{ publication.link }}" class="link">{{ publication.title }}</a>
+        </h3>
+        <div class="reference">{{ publication.reference }}</div>
+        <p class="description">{{ publication.description | newline_to_br }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Presentations</h2>
+  <ul class="presentations">
+    {% for presentation in site.data.outreach.presentations %}
+      <li class="presentation">
+        <h3 class="header">
+          <a href="{{ presentation.link }}" class="link">{{ presentation.title }}</a>
+        </h3>
+        <div class="authors">{{ presentation.authors }}</div>
+        <div class="event">{{ presentation.event }}</div>
+        <div class="where-and-when">{{ presentation.location }} ({{ presentation.date }})</div>
+        <p class="description">{{ presentation.description | newline_to_br }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Press releases</h2>
+  <ul class="press-releases">
+    {% for press-release in site.data.outreach.press-releases %}
+      <li class="press-release">
+        <h3 class="header">
+          {% if press-release.link %}
+            <a href="{{ press-release.link }}" class="link">{{ press-release.title }}</a>
+          {% else %}
+            {{ press-release.title }}
+          {% endif %}
+        </h3>
+        <div class="authors">{{ press-release.reference }}</div>
+        <p class="description">{{ press-release.description | newline_to_br }}</p>
+      </li>
+    {% endfor %}
+  </ul>
 </div>

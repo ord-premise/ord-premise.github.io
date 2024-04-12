@@ -14,18 +14,46 @@
         font-weight: normal;
       }
 
-      .authors {
+      .reference, .authors {
         font-weight: bold;
         font-style: italic;
       }
-    }
 
-    &.publications li {
-      @extend .publication-bullet;
-    }
+      .event,
+      .where-and-when {
+        font-style: italic;
+      }
 
-    &.presentations li {
-      @extend .presentation-bullet;
+      .description {
+        margin: 0.5em 0;
+      }
+
+      &.publication {
+        @extend .list-bullet;
+
+        &::before {
+          content: "📄";
+          top: -0.25em;
+        }
+      }
+
+      &.presentation {
+        @extend .list-bullet;
+
+        &::before {
+          content: "🎥";
+          top: -0.4em;
+        }
+      }
+
+      &.press-release {
+        @extend .list-bullet;
+
+        &::before {
+          content: "🎤";
+          top: -0.3em;
+        }
+      }
     }
   }
 }
