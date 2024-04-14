@@ -22,7 +22,7 @@ author: PREMISE team
 navbar-links:
   About: "about"
   Team: "team"
-  Work Packages: "workpackages"
+  Deliverables: "deliverables"
   Outreach: "outreach"
   Tools:
     - all: "tools"
