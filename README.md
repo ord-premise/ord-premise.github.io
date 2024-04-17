@@ -1,4 +1,11 @@
-# Beautiful Jekyll
+# ORD PREMISE website (source code)
+
+**This is the source code from which the ORD PREMISE website is generated.
+If you just want to see the website, please go here: https://www.ord-premise.org**
+
+The remanining information is intended for developers. 
+
+## Beautiful Jekyll
 
 [![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
 
