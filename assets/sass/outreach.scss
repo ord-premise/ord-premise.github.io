@@ -14,12 +14,14 @@
         font-weight: normal;
       }
 
-      .reference, .authors {
+      .reference,
+      .authors,
+      .organizers {
         font-weight: bold;
         font-style: italic;
       }
 
-      .event,
+      .presentation-event,
       .where-and-when {
         font-style: italic;
       }
@@ -51,6 +53,15 @@
 
         &::before {
           content: "🎤";
+          top: -0.3em;
+        }
+      }
+
+      &.event {
+        @extend .list-bullet;
+
+        &::before {
+          content: "⚒️";
           top: -0.3em;
         }
       }
