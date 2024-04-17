@@ -14,10 +14,10 @@
   link: https://arxiv.org/abs/2402.00572
   reference: M. L. Evans et al., arXiv preprint arXiv:2402.00572 (2024)
   description: |
-    This review discusses the interoperability of softwares used to simulate materials properties leveraging Wannier functions, and formalises the existence of an ecosystem of interoperable codes.
+    This paper discusses the recent advances of the OPTIMADE API, a REST API to provide access to crystal structure data from tens of different database online, both from simulations and from experiments, enabling interoperability of experimental and simulation data in the domain of material science.
 
 - title: The Wannier-Functions Software Ecosystem for Materials Simulations
   link: https://arxiv.org/abs/2312.10769
   reference: A. Marrazzo et al., arXiv preprint arXiv:2312.10769 (2023)
   description: |
-    This paper discusses the recent advances of the OPTIMADE API, a REST API to provide access to crystal structure data from tens of different database online, both from simulations and from experiments, enabling interoperability of experimental and simulation data in the domain of material science.
+    This review discusses the interoperability of softwares used to simulate materials properties leveraging Wannier functions, and formalizes the existence of an ecosystem of interoperable codes.

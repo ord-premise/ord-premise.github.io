@@ -1,18 +1,18 @@
 # - title: Towards 4 V class solid-state lithium-metal batteries (Seminar)
+#   link: https://www.uni-muenster.de/de/veranstaltungskalender/prod/ausgabe/termine.php?layout=toptermin-detail&id=37216&einrichtungsid=56
 #   authors: Corsin Battaglia (invited)
 #   event: Seminar
 #   location: University of Münster, Münster, Switzerland
 #   date: April 2024
-#   link: https://www.uni-muenster.de/de/veranstaltungskalender/prod/ausgabe/termine.php?layout=toptermin-detail&id=37216&einrichtungsid=56
 #   description: |
 #     Application of the Aurora/AiiDA/openBIS platform to solid-state battery research.
 
 - title: Innovating the batteries of the future
+  link: https://memento.epfl.ch/event/imx-seminar-series-innovating-the-batteries-of-the/
   authors: Corsin Battaglia (invited)
   event: EPFL IMX Seminar
   location: Lausanne, Switzerland
   date: April 2024
-  link: https://memento.epfl.ch/event/imx-seminar-series-innovating-the-batteries-of-the/
   description: |
     Overview of research activities at Empa's laboratory Materials for Energy Conversion including Aurora/Aiida/OpenBIS.
     The talk was also given at:
@@ -25,33 +25,33 @@
     - <em>BASF seminar (April 2023)</em>
 
 - title: Towards an autonomous robotic battery innovation platform
+  link: https://battery2030.eu/news/activities/big-map-workshop-towards-a-unified-future/
   authors: Corsin Battaglia, Edan Bainglass
   event: BIG-MAP EUnified Battery Data Space workshop
   location: Grindelwald, Switzerland
   date: February 2024
-  link: https://battery2030.eu/news/activities/big-map-workshop-towards-a-unified-future/
   description: An overview and demonstration of the Aurora project.
 
 - title: "More than open data: towards a FAIR data and simulation infrastructure with AiiDA and Materials Cloud"
+  link: https://nffa.eu/news/events/two-joint-nffa-europe-workshops-on-microscopy-open-data-and-analytical-large-scale-facilities/
   authors: Giovanni Pizzi (invited)
   event: Workshop, FAIR and Open Data in NFFA-Europe Pilot and Beyond
   location: Maier-Leibnitz Zentrum, Garching, Germany
   date: September 2023
-  link: https://nffa.eu/news/events/two-joint-nffa-europe-workshops-on-microscopy-open-data-and-analytical-large-scale-facilities/
-  description:
+  description: A presentation discussing how FAIR open research data can be obtained thanks to the PREMISE software tools, with specific focus on simulations but discussing also interoperability with experiments.
 
 - title: "Toward robust materials simulations with common workflow interfaces in AiiDA"
+  link: https://pasc23.pasc-conference.org/
   authors: Giovanni Pizzi (invited)
   event: Conference, PASC23
   location: Davos, Switzerland
   date: June 2023
-  link: https://pasc23.pasc-conference.org/
-  description:
+  description: A presentation of the work on designing a common API to perform simulations on materials, with over ten different codes. This is a crucial part to enable accessible simulations also for non-experts (e.g. triggered from an experimental ELN platform).
 
 - title: "Open-research data repositories and reproducible workflows"
+  link: https://nccrs.github.io/basel/
   authors: Giovanni Pizzi (invited)
   event: Workshop, NCCR Network Ventures – Open Research Data events
   location: Basel, Switzerland
   date: June 2023
-  link: https://nccrs.github.io/basel/
-  description:
+  description: A presentation and discussion of the requirements of ORD repositories, and how a tight integration with reproducible workflows can foster the creation and sharing of FAIR open research data.
