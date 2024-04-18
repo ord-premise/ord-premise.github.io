@@ -32,6 +32,22 @@
   date: February 2024
   description: An overview and demonstration of the Aurora project.
 
+- title: "Driving Robotic Battery Experiment Workflows with AiiDA"
+  link: https://indico.psi.ch/event/14214/
+  authors: Edan Bainglass
+  event: Seminar, Swiss Battery Days 2023
+  location: Villigen, Switzerland
+  date: September 2023
+  description: A poster highlighting the integration of the AiiDA WFMS with the Aurora battery assembly and cycling platform at Empa.
+
+- title: "The Aurora project - towards an autonomous robotic battery innovation platform"
+  link: https://indico.psi.ch/event/14214/
+  authors: Enea Svaluto-Ferro
+  event: Seminar, Swiss Battery Days 2023
+  location: Villigen, Switzerland
+  date: September 2023
+  description: A poster describing the Aurora battery assembly and cycling platform at Empa and results from cycling experiment performed within the integrated AiiDA-Aurora system.
+
 - title: "More than open data: towards a FAIR data and simulation infrastructure with AiiDA and Materials Cloud"
   link: https://nffa.eu/news/events/two-joint-nffa-europe-workshops-on-microscopy-open-data-and-analytical-large-scale-facilities/
   authors: Giovanni Pizzi (invited)
@@ -51,7 +67,7 @@
 - title: "Open-research data repositories and reproducible workflows"
   link: https://nccrs.github.io/basel/
   authors: Giovanni Pizzi (invited)
-  event: Workshop, NCCR Network Ventures – Open Research Data events
+  event: Workshop, NCCR Network Ventures - Open Research Data events
   location: Basel, Switzerland
   date: June 2023
   description: A presentation and discussion of the requirements of ORD repositories, and how a tight integration with reproducible workflows can foster the creation and sharing of FAIR open research data.
