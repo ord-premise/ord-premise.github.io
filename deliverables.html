@@ -5,7 +5,7 @@ subtitle: What does PREMISE do?
 ---
 
 <div class="deliverables">
-  <p id="deliverables-intro">The deliverables of the PREMISE project are split into five work packages (WP). You can learn more about the specific goal and expected deliverables of each work package by clicking on its title below. We will add information and links to deliverables over time as we address them.</p>
+  <p id="deliverables-intro">The deliverables of the PREMISE project are distributes across five work packages (WPs). You can learn more about the specific goal and expected deliverables of each work package by clicking on its title below. We will add information and links to deliverables over time as we address them.</p>
   <div id="deliverables-legend">
     <ol>
       <li class="planned">planned</li>
@@ -19,14 +19,16 @@ subtitle: What does PREMISE do?
         <div
           id="heading-{{ forloop.index }}"
           class="wp-header"
-          role="button">
+          role="button"
+        >
           <h5 class="mb-0">
             <button
               class="btn btn-link wp-btn-link collapsed"
               data-toggle="collapse"
               data-target="#collapse-{{ forloop.index }}"
               aria-expanded="false"
-              aria-controls="collapse-{{ forloop.index }}">
+              aria-controls="collapse-{{ forloop.index }}"
+            >
               <div class="row mx-0">
                 <div class="wp-tag">WP {{ forloop.index }}</div>
                 <div class="title">{{ wp.header }}</div>
@@ -38,7 +40,8 @@ subtitle: What does PREMISE do?
           id="collapse-{{ forloop.index }}"
           class="collapse wp-collapse"
           data-parent="#wp-accordion"
-          aria-labelledby="heading-{{ forloop.index }}">
+          aria-labelledby="heading-{{ forloop.index }}"
+        >
           <div class="card-body wp-body">
             <div id="accordion-{{ forloop.index }}">
               <p class="wp-description">{{ wp.description }}</p>
@@ -47,14 +50,16 @@ subtitle: What does PREMISE do?
                   <div
                     id="heading-{{ forloop.parentloop.index }}-{{ forloop.index }}"
                     class="deliverable-header"
-                    role="button">
+                    role="button"
+                  >
                     <h5 class="mb-0">
                       <button
                         class="btn btn-link deliverable-btn-link collapsed"
                         data-toggle="collapse"
                         data-target="#collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}"
                         aria-expanded="false"
-                        aria-controls="collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}">
+                        aria-controls="collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}"
+                      >
                         <div class="row mx-0">
                           <div class="deliverable-tag {{ deliverable.status }}">
                             {{ deliverable.tag }}
@@ -70,7 +75,8 @@ subtitle: What does PREMISE do?
                     id="collapse-{{ forloop.parentloop.index }}-{{ forloop.index }}"
                     class="collapse"
                     data-parent="#accordion-{{ forloop.parentloop.index }}"
-                    aria-labelledby="heading-{{ forloop.parentloop.index }}-{{ forloop.index }}">
+                    aria-labelledby="heading-{{ forloop.parentloop.index }}-{{ forloop.index }}"
+                  >
                     <div class="card-body deliverable-body">
                       {% if deliverable.authors %}
                         <div class="deliverable-authors">
