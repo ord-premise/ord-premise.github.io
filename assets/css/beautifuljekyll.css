@@ -237,12 +237,6 @@ img {
   }
 }
 
-@media (min-width: 1200px) {
-  .navbar-custom .nav-item.dropdown:hover {
-    background: rgba(0, 0, 0, 0.1);
-  }
-}
-
 .navbar-custom .nav-item.dropdown.show {
   background: rgba(0, 0, 0, 0.2);
 }
@@ -272,7 +266,11 @@ img {
   {% endunless %}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
+  .nav-item {
+    padding: 0 0.5em;
+  }
+
   .navbar-custom .nav-item.dropdown .dropdown-menu {
     text-align: center;
   }
