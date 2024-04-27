@@ -173,12 +173,18 @@
         margin-bottom: 1rem;
       }
 
-      .deliverable-description {
+      .deliverable-description,
+      .deliverable-version {
         margin: 0;
       }
 
+      .deliverable-version {
+        font-weight: bold;
+      }
+
+      .deliverable-version,
       .deliverable-link {
-        margin-top: 1rem;
+        margin-top: 0.5em;
       }
     }
   }

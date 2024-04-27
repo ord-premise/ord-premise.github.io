@@ -12,6 +12,7 @@
         - Carlo Pignedoli
         - Giovanni Pizzi
       description: A documentation of our gained experience in the development and usage of ontologies to facilitate interoperability in experimental-simulation materials science research.
+      current: March 2024
       link: https://github.com/ord-premise/interoperability-guidelines
       deadline: March 2024
       status: completed
@@ -52,6 +53,7 @@
         - Fabio Da Costa Lopez
         - Carlo A. Pignedoli
       description: The first version of a metadata schema mapping experiments and simulations of microscopy/spectroscopy of molecules on surfaces.
+      current: September 2024
       link: https://github.com/ord-premise/metadata-spectroscopy
       deadline: September 2024
       status: completed
@@ -81,6 +83,7 @@
         - Nukorn Plainpan
         - Corsin Battaglia
       description: The first version of an ontologized metadata schema for digital twins in battery research, specifically coin-cell assembly and cycling studies.
+      current: March 2024
       link: https://github.com/ord-premise/metadata-batteries
       deadline: March 2024
       status: completed
@@ -91,6 +94,7 @@
         - Edan Bainglass
         - Giovanni Pizzi
       description: A documentation of our gained experience in designing user interfaces to interact with digital twins. We provide here a set of recommendations for designing such interfaces both in ELNs and WFMSs, covering storage, history tracking, analysis tools, and more, with an emphasis on user experience.
+      current: March 2024
       link: https://github.com/ord-premise/digital-twins-interface-design
       deadline: March 2024
       status: completed

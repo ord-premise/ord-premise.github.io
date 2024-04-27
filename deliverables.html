@@ -86,9 +86,12 @@ subtitle: What does PREMISE do?
                           {% endfor %}
                         </div>
                       {% endif %}
-                      <p class="deliverable-description">
-                        {{ deliverable.description }}
-                      </p>
+                      <p class="deliverable-description">{{ deliverable.description }}</p>
+                      {% if deliverable.current %}
+                        <p class="deliverable-version">
+                          Most recent version: {{ deliverable.current }}
+                        </p>
+                      {% endif %}
                       {% if deliverable.link %}
                         <div class="deliverable-link">
                           <a href="{{ deliverable.link }}">{{ deliverable.link }}</a>
