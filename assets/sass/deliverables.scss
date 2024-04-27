@@ -1,5 +1,4 @@
 .deliverables {
-
   button {
     user-select: text;
   }
@@ -147,9 +146,19 @@
         @extend .tag;
       }
 
-      .deliverable-title {
+      .title-container {
         flex: 0 0 85%;
         padding: 10px;
+
+        .title {
+          padding: 0;
+        }
+
+        .deadline {
+          margin-top: 5px;
+          margin-left: 10px;
+          font-weight: bold;
+        }
       }
     }
 

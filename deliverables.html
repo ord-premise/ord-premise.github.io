@@ -64,8 +64,9 @@ subtitle: What does PREMISE do?
                           <div class="deliverable-tag {{ deliverable.status }}">
                             {{ deliverable.tag }}
                           </div>
-                          <div class="title">
-                            {{ deliverable.title }}
+                          <div class="title-container">
+                            <div class="title">{{ deliverable.title }}</div>
+                            <div class="deadline">Due: {{ deliverable.deadline }}</div>
                           </div>
                         </div>
                       </button>

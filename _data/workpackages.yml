@@ -13,6 +13,7 @@
         - Giovanni Pizzi
       description: A documentation of our gained experience in the development and usage of ontologies to facilitate interoperability in experimental-simulation materials science research.
       link: https://github.com/ord-premise/interoperability-guidelines
+      deadline: March 2024
       status: completed
 
     - tag: D1.2
@@ -23,6 +24,7 @@
         - Edan Bainglass
       description: A first demonstration of interoperability between an ELN and a WFMS following best-practices detailed in D1.1 leveraging its metadata schemas.
       link:
+      deadline: May 2024
       status: in-progress
 
     - tag: D1.3
@@ -30,6 +32,7 @@
       authors:
       description: Description coming soon.
       link:
+      deadline: September 2025
       status: planned
 
     - tag: D1.4
@@ -37,6 +40,7 @@
       authors:
       description: Description coming soon.
       link:
+      deadline: March 2026
       status: planned
 
 - header: "1<sup>st</sup> use-case - open data from simulation-assisted experimental interpretation"
@@ -49,13 +53,15 @@
         - Carlo A. Pignedoli
       description: The first version of a metadata schema mapping experiments and simulations of microscopy/spectroscopy of molecules on surfaces.
       link: https://github.com/ord-premise/metadata-spectroscopy
-      status: in-progress
+      deadline: September 2024
+      status: completed
 
     - tag: D2.2
       title: Demonstration of full interoperability of an ELN-LIMS and a WFMS, leveraging D1.3, for microscopy experiments, with full provenance of microscopy simulations integrated back in the original ELN-LIMS, alongside the corresponding experimental data
       authors:
       description: Description coming soon.
       link:
+      deadline: September 2025
       status: planned
 
     - tag: D2.3
@@ -63,6 +69,7 @@
       authors:
       description: Description coming soon.
       link:
+      deadline: March 2026
       status: planned
 
 - header: "2<sup>nd</sup> use-case - open data from workflow-driven robotic experiments"
@@ -75,6 +82,7 @@
         - Corsin Battaglia
       description: The first version of an ontologized metadata schema for digital twins in battery research, specifically coin-cell assembly and cycling studies.
       link: https://github.com/ord-premise/metadata-batteries
+      deadline: March 2024
       status: completed
 
     - tag: D3.2
@@ -84,6 +92,7 @@
         - Giovanni Pizzi
       description: A documentation of our gained experience in designing user interfaces to interact with digital twins. We provide here a set of recommendations for designing such interfaces both in ELNs and WFMSs, covering storage, history tracking, analysis tools, and more, with an emphasis on user experience.
       link: https://github.com/ord-premise/digital-twins-interface-design
+      deadline: March 2024
       status: completed
 
     - tag: D3.3
@@ -91,6 +100,7 @@
       authors:
       description: Description coming soon.
       link:
+      deadline: March 2025
       status: planned
 
     - tag: D3.4
@@ -98,6 +108,7 @@
       authors:
       description: Description coming soon.
       link:
+      deadline: March 2025
       status: planned
 
     - tag: D3.5
@@ -105,6 +116,7 @@
       authors:
       description: Description coming soon.
       link:
+      deadline: March 2026
       status: planned
 
 - header: "Reproducible and accessible materials experiments and simulations"
@@ -115,6 +127,7 @@
       authors:
       description: Description coming soon.
       link:
+      deadline: March 2025
       status: in-progress
 
     - tag: D4.2
@@ -122,6 +135,7 @@
       authors:
       description: Description coming soon.
       link:
+      deadline: March 2025
       status: planned
 
     - tag: D4.3
@@ -129,6 +143,7 @@
       authors:
       description: Description coming soon.
       link:
+      deadline: September 2025
       status: planned
 
     - tag: D4.4
@@ -136,6 +151,7 @@
       authors:
       description: Description coming soon.
       link:
+      deadline: March 2026
       status: planned
 
 - header: "Project management and outreach"
@@ -146,13 +162,15 @@
       authors:
       description: Description coming soon.
       link:
-      status: in-progress
+      deadline: March 2024
+      status: completed
 
     - tag: D5.2
       title: First scientific and financial report
       authors:
       description: Description coming soon.
       link:
+      deadline: May 2024
       status: in-progress
 
     - tag: D5.3
@@ -160,13 +178,15 @@
       authors:
       description: See D5.1
       link:
-      status: in-progress
+      deadline: March 2025
+      status: completed
 
     - tag: D5.4
-      title: Second final scientific and financial report
+      title: Final scientific and financial report
       authors:
       description: Description coming soon.
       link:
+      deadline: March 2026
       status: planned
 
     - tag: D5.5
@@ -174,6 +194,7 @@
       authors:
       description: Description coming soon.
       link:
+      deadline: March 2026
       status: planned
 
     - tag: D5.6
@@ -181,4 +202,5 @@
       authors:
       description: Description coming soon.
       link:
+      deadline: March 2026
       status: planned
