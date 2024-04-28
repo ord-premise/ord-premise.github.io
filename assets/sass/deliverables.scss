@@ -1,7 +1,8 @@
 .deliverables {
   button {
     user-select: text;
-  }
+    -webkit-user-select: text;
+}
 
   #deliverables-intro {
     margin-bottom: 1em;
