@@ -1,5 +1,5 @@
 - title: Project acceptance
-  date: February 2024
+  date: November 2022
   link:
   description: |
     Official news of the PREMISE project proposal approval and acceptance:
@@ -7,3 +7,9 @@
     - <a href="https://nccr-marvel.ch/news/communication/11-PREMISE">NCCR MARVEL news</a>
     - <a href="https://www.psi.ch/en/lms/scientific-highlights/lms-wins-funding-establish-ord-practices">PSI scientific highlights</a>
     - <a href="https://www.aiida.net/news/posts/2022-11-24-ord-project-premise.html">AiiDA news</a>
+
+- title: NCCR MARVEL Scientific highlight
+  date: April 2024
+  link: https://nccr-marvel.ch/highlights/AiiDA-experiments-aurora
+  description: |
+    An article highlighting the novelty and impact of integrating the AiiDA WFMS with the Aurora autonomous battery assembly and cycling platform.

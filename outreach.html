@@ -10,7 +10,10 @@ subtitle: How does PREMISE communicate?
     {% for publication in site.data.outreach.publications %}
       <li class="publication">
         <h3 class="header">
-          <a href="{{ publication.link }}" class="link">{{ publication.title }}</a>
+          <a
+            href="{{ publication.link }}"
+            class="link"
+          >{{ publication.title }}</a>
         </h3>
         <div class="reference">{{ publication.reference }}</div>
         <p class="description">{{ publication.description | newline_to_br }}</p>
@@ -23,7 +26,10 @@ subtitle: How does PREMISE communicate?
     {% for presentation in site.data.outreach.presentations %}
       <li class="presentation">
         <h3 class="header">
-          <a href="{{ presentation.link }}" class="link">{{ presentation.title }}</a>
+          <a
+            href="{{ presentation.link }}"
+            class="link"
+          >{{ presentation.title }}</a>
         </h3>
         <div class="authors">{{ presentation.authors }}</div>
         <div class="presentation-event">{{ presentation.event }}</div>
@@ -39,12 +45,15 @@ subtitle: How does PREMISE communicate?
       <li class="press-release">
         <h3 class="header">
           {% if press-release.link %}
-            <a href="{{ press-release.link }}" class="link">{{ press-release.title }}</a>
+            <a
+              href="{{ press-release.link }}"
+              class="link"
+            >{{ press-release.title }}</a>
           {% else %}
             {{ press-release.title }}
           {% endif %}
         </h3>
-        <div class="authors">{{ press-release.reference }}</div>
+        <div class="date">{{ press-release.date }}</div>
         <p class="description">{{ press-release.description | newline_to_br }}</p>
       </li>
     {% endfor %}
@@ -55,7 +64,10 @@ subtitle: How does PREMISE communicate?
     {% for event in site.data.outreach.events %}
       <li class="event">
         <h3 class="header">
-          <a href="{{ event.link }}" class="link">{{ event.title }}</a>
+          <a
+            href="{{ event.link }}"
+            class="link"
+          >{{ event.title }}</a>
         </h3>
         <div class="organizers">Organizers: {{ event.organizers }}</div>
         <div class="where-and-when">{{ event.location }} ({{ event.date }})</div>
