@@ -2,7 +2,7 @@
 layout: post
 title: MADICES 2 launch
 subtitle: Organization takes off 🚀
-tags: [meeting, launch]
+tags: [meeting, launch, outreach]
 comments: true
 author: Edan Bainglass
 ---

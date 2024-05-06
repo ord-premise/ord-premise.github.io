@@ -2,7 +2,7 @@
 layout: post
 title: MADICES 2 second pre-event meeting
 subtitle: Discussion and planning 💬
-tags: [meeting, virtual]
+tags: [meeting, virtual, outreach]
 comments: true
 author: Edan Bainglass
 ---

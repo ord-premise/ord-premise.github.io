@@ -16,3 +16,5 @@ The third PREMISE in-person meeting took place in Zürich at the ETHz Oerlikon c
 - Metadata schemas - ontologies
 - Concrete planning and distribution of work
 - Interoperability meta-metadata suggestions
+
+The next in-person meeting is scheduled for April 29, 2024 in Zürich. Agenda to be determined.

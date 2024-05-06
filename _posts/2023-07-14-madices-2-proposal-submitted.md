@@ -2,7 +2,7 @@
 layout: post
 title: MADICES 2 proposal submitted
 subtitle: Fingers crossed 🤞
-tags: [milestone]
+tags: [milestone, outreach]
 comments: true
 author: Edan Bainglass
 ---
