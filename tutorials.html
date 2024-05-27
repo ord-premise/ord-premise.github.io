@@ -1,0 +1,33 @@
+---
+layout: page
+title: Tutorials & Demos
+subtitle: How does PREMISE do it?
+---
+
+<div class="tutorials">
+  <p>
+    The PREMISE project is developing a number of tutorials and demos to help users understand the project's goals and outcomes. You can find a list of these tutorials and demos below.
+  </p>
+  <div class="row">
+    {% for tutorial in site.data.tutorials %}
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card mb-5 h-100">
+          <a
+            href="{{ tutorial.link }}"
+            target="_blank"
+          >
+            <img
+              class="card-img-top"
+              src="/assets/img/{{ tutorial.thumbnail }}"
+              alt="{{ tutorial.title }}"
+            >
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{ tutorial.title }}</h3>
+            <p class="card-text">{{ tutorial.description }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

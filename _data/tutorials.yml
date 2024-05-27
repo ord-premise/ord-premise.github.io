@@ -1,0 +1,24 @@
+- link: https://www.youtube.com/channel/UCvzdffJbaJFiPMxjxx1iHFA
+  thumbnail: thumbnail-placeholder.png
+  title: "Guidelines for ontologizing metadata"
+  description: "This tutorial will show you how to ontologize metadata using the PREMISE guidelines."
+
+- link: https://www.youtube.com/channel/UCvzdffJbaJFiPMxjxx1iHFA
+  thumbnail: thumbnail-placeholder.png
+  title: "ORD interoperability example"
+  description: "This tutorial will demonstrate ORD interoperability between the AiiDAlab GUI to the AiiDA WFMS and the openBIS ELN leveraging the specific APIs of the two platforms."
+
+- link: https://www.youtube.com/channel/UCvzdffJbaJFiPMxjxx1iHFA
+  thumbnail: thumbnail-placeholder.png
+  title: "Platform-agnostic interoperability"
+  description: "This tutorial will demonstrate a conceptual platform-agnostic ORD interoperability using two mock-up webapps."
+
+- link: https://www.youtube.com/channel/UCvzdffJbaJFiPMxjxx1iHFA
+  thumbnail: thumbnail-placeholder.png
+  title: "openBIS generic imaging technology"
+  description: "This tutorial will present the integrated imaging technology of the openBIS ELN allowing users to visualize their stored datasets."
+
+- link: https://www.youtube.com/channel/UCvzdffJbaJFiPMxjxx1iHFA
+  thumbnail: thumbnail-placeholder.png
+  title: "Digital twin user interface design"
+  description: "This tutorial will walk through the AiiDAlab-Aurora GUI and highlight its features as recommendations for the design of UIs for working with digital twins."

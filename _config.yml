@@ -24,6 +24,7 @@ navbar-links:
   Team: "team"
   Deliverables: "deliverables"
   Outreach: "outreach"
+  Tutorials: "tutorials"
   Tools:
     - all: "tools"
     - AiiDA: "https://aiida.net"
