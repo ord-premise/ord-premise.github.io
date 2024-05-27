@@ -2,7 +2,7 @@
 layout: post
 title: AiiDA-Aurora integration paper published
 subtitle: Battery assembly/cycling automated via WFMS 🤖🔋
-tags: [deliverable]
+tags: [publication]
 comments: true
 author: Edan Bainglass
 ---
