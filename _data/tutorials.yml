@@ -1,24 +1,24 @@
-- link: https://www.youtube.com/channel/UCvzdffJbaJFiPMxjxx1iHFA
-  thumbnail: thumbnail-placeholder.png
-  title: "Guidelines for ontologizing metadata"
-  description: "This tutorial will show you how to ontologize metadata using the PREMISE guidelines."
+- link: https://www.youtube.com/watch?v=JKnmcO2ohqY&t=4s
+  thumbnail: ontologizing-metadata.png
+  title: "A guide to ontologizing metadata"
+  description: "This video discusses the benefits and challenges of ontologizing metadata in open science. It highlights some of the available tools and presents the guidelines and best-practices developed in PREMISE for providing semantic meaning to datasets."
 
-- link: https://www.youtube.com/channel/UCvzdffJbaJFiPMxjxx1iHFA
-  thumbnail: thumbnail-placeholder.png
-  title: "ORD interoperability example"
-  description: "This tutorial will demonstrate ORD interoperability between the AiiDAlab GUI to the AiiDA WFMS and the openBIS ELN leveraging the specific APIs of the two platforms."
+- link: https://www.youtube.com/watch?v=jss_eE_3YfI
+  thumbnail: aiidalab-openbis.png
+  title: "openBIS-AiiDAlab interoperability"
+  description: "This video demonstrates the current state of open data interoperability between the openBIS electronic lab notebook (ELN) and the AiiDAlab GUI companion to the AiiDA workflow management system (WFMS). The interoperability demo stresses the use of the newly defined metadata schema for microscopy and spectroscopy developed in PREMISE."
 
-- link: https://www.youtube.com/channel/UCvzdffJbaJFiPMxjxx1iHFA
-  thumbnail: thumbnail-placeholder.png
-  title: "Platform-agnostic interoperability"
-  description: "This tutorial will demonstrate a conceptual platform-agnostic ORD interoperability using two mock-up webapps."
+- link: https://www.youtube.com/watch?v=4ml6H6Np0Wo&t=11s
+  thumbnail: platform-agnostic.png
+  title: "Platform-agnostic ORD interoperability"
+  description: "This video presents the concept of and demonstrates a new data transfer protocol using JSON-LD and RO-Crate, both semantically annotated with ontological references (IRIs), as a path towards platform-agnostic interoperability in open science."
 
-- link: https://www.youtube.com/channel/UCvzdffJbaJFiPMxjxx1iHFA
-  thumbnail: thumbnail-placeholder.png
-  title: "openBIS generic imaging technology"
-  description: "This tutorial will present the integrated imaging technology of the openBIS ELN allowing users to visualize their stored datasets."
+- link: https://www.youtube.com/watch?v=5qSqEtDp7n0
+  thumbnail: openbis-imaging-tech.png
+  title: "openBIS imaging technology plugin"
+  description: "This video demonstrates the openBIS electronic lab notebook (ELN) new generic imaging technology plugin system, which allows openBIS users to model 1D and 2D datasets visually directly in the ELN. The demo highlights a use case for STM imaging."
 
-- link: https://www.youtube.com/channel/UCvzdffJbaJFiPMxjxx1iHFA
-  thumbnail: thumbnail-placeholder.png
-  title: "Digital twin user interface design"
-  description: "This tutorial will walk through the AiiDAlab-Aurora GUI and highlight its features as recommendations for the design of UIs for working with digital twins."
+- link: https://www.youtube.com/watch?v=0kz9Voqp3jk
+  thumbnail: digital-twin-ui.png
+  title: "AiiDAlab-Aurora: Model UI for digital twins"
+  description: "This video demonstrates the AiiDAlab-Aurora UI for managing, preparing, submitting, and analyzing battery cycling experiments as part of the integrated AiiDA-Aurora automated battery assembling and cycling platform. The app serves as a model for designing UIs for digital twins."

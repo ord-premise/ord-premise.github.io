@@ -1,0 +1,12 @@
+.tutorials {
+  @media screen and (min-width: 1600px) {
+    .row {
+      margin: 0 -15rem;
+    }
+
+    .col-xxl-4 {
+      flex: 0 0 33%;
+      max-width: 33%;
+    }
+  }
+}
