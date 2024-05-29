@@ -26,7 +26,7 @@
       description: A first demonstration of interoperability between an ELN and a WFMS following best-practices detailed in D1.1 leveraging its metadata schemas.
       link:
       deadline: May 2024
-      status: in-progress
+      status: completed
 
     - tag: D1.3
       title: Full interoperability of ELNs and WFMSs demonstrated for openBIS and AiiDAlab
