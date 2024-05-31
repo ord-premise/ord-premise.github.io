@@ -1,4 +1,4 @@
-- link: https://www.youtube.com/watch?v=JKnmcO2ohqY&t=4s
+- link: https://www.youtube.com/watch?v=JKnmcO2ohqY
   thumbnail: ontologizing-metadata.png
   title: "A guide to ontologizing metadata"
   description: "This video discusses the benefits and challenges of ontologizing metadata in open science. It highlights some of the available tools and presents the guidelines and best-practices developed in PREMISE for providing semantic meaning to datasets."
@@ -8,7 +8,7 @@
   title: "openBIS-AiiDAlab interoperability"
   description: "This video demonstrates the current state of open data interoperability between the openBIS electronic lab notebook (ELN) and the AiiDAlab GUI companion to the AiiDA workflow management system (WFMS). The interoperability demo stresses the use of the newly defined metadata schema for microscopy and spectroscopy developed in PREMISE."
 
-- link: https://www.youtube.com/watch?v=4ml6H6Np0Wo&t=11s
+- link: https://www.youtube.com/watch?v=4ml6H6Np0Wo
   thumbnail: platform-agnostic.png
   title: "Platform-agnostic ORD interoperability"
   description: "This video presents the concept of and demonstrates a new data transfer protocol using JSON-LD and RO-Crate, both semantically annotated with ontological references (IRIs), as a path towards platform-agnostic interoperability in open science."
