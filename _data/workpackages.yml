@@ -5,7 +5,7 @@
       title: Metadata schema and documentation/white paper for interoperable experimental-simulation materials science
       authors:
         - Nukorn Plainpan
-        - Fabio Andre DaCostaLopes
+        - Fabio Lopes
         - Edan Bainglass
         - Caterina Barillari
         - Corsin Battaglia
@@ -20,11 +20,11 @@
     - tag: D1.2
       title: First demonstration of AiiDAlab-openBIS interoperability supporting newly defined metadata schemas and practices
       authors:
-        - Nukorn Plainpan
-        - Fabio Andre DaCostaLopes
-        - Edan Bainglass
-      description: A first demonstration of interoperability between an ELN and a WFMS following best-practices detailed in D1.1 leveraging its metadata schemas.
-      link:
+        - Fabio Lopes
+        - Aliaksandr Yakutovich
+        - Carlo Pignedoli
+      description: A demonstration of interoperability between openBIS and AiiDAlab following best-practices detailed in D1.1 and leveraging metadata schemas defined in D2.1.
+      link: https://www.youtube.com/watch?v=jss_eE_3YfI
       deadline: May 2024
       status: completed
 
@@ -50,7 +50,7 @@
     - tag: D2.1
       title: Common data/metadata format to store and access microscopy data from simulations and experiments in a single platform and visualize within the same GUI
       authors:
-        - Fabio Da Costa Lopez
+        - Fabio Lopez
         - Carlo A. Pignedoli
       description: The first version of a metadata schema mapping experiments and simulations of microscopy/spectroscopy of molecules on surfaces.
       current: September 2024
@@ -94,7 +94,7 @@
         - Edan Bainglass
         - Giovanni Pizzi
       description: A documentation of our gained experience in designing user interfaces to interact with digital twins. We provide here a set of recommendations for designing such interfaces both in ELNs and WFMSs, covering storage, history tracking, analysis tools, and more, with an emphasis on user experience.
-      current: March 2024
+      current: May 2024
       link: https://github.com/ord-premise/digital-twins-interface-design
       deadline: March 2024
       status: completed
@@ -162,26 +162,38 @@
   description: "Coordinate and manage project tasks and organise outreach via follow-up MADICES conferences and online presence"
   deliverables:
     - tag: D5.1
-      title: Yearly MADICES workshop, first year - merged with D5.3
+      title: Yearly MADICES workshop, first year
       authors:
-      description: Description coming soon.
-      link:
+        - Edan Bainglass
+        - Caterina Barillari
+      description: The second workshop in the MADICES series brought together RDM platform representatives and ontology experts to discuss how to best facilitate ORD interoperability. See link for further details.
+      link: https://madices.github.io/docs/2024/
       deadline: March 2024
       status: completed
 
     - tag: D5.2
       title: First scientific and financial report
       authors:
-      description: Description coming soon.
+        - Giovanni Pizzi
+        - Edan Bainglass
+        - Fabio Lopes
+        - Carlo Pignedoli
+        - Caterina Barillari
+        - Mihai-Cosmin Danaila
+        - Nukorn Plainpan
+        - Corsin Battaglia
+      description: The first set of reports detailing the work carried out by PREMISE.
       link:
       deadline: May 2024
-      status: in-progress
+      status: completed
 
     - tag: D5.3
       title: Yearly MADICES workshop, second year - merged with D5.1
       authors:
-      description: See D5.1
-      link:
+        - Edan Bainglass
+        - Caterina Barillari
+      description: Merged with D5.1
+      link: https://madices.github.io/docs/2024/
       deadline: March 2025
       status: completed
 
