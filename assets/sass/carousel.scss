@@ -1,4 +1,6 @@
 .carousel {
+  margin-bottom: 2em;
+
   li {
     list-style: none;
   }
@@ -37,7 +39,7 @@
   }
 
   .carousel-indicators {
-    bottom: -10%;
+    bottom: -2.5em;
 
     li {
       content: "";

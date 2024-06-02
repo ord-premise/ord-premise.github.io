@@ -1,18 +1,10 @@
-{% assign posts = include.posts | sort: 'date' | reverse %}
+{% assign posts = include.posts | sort: "date" | reverse %}
 
 <div
   id="myCarousel"
   class="carousel slide px-5"
   data-ride="carousel"
 >
-  <ol class="carousel-indicators">
-    {% for post in posts %}
-      <li
-        data-target="#myCarousel"
-        data-slide-to={{ forloop.index0 }}
-      ></li>
-    {% endfor %}
-  </ol>
   <div class="carousel-inner">
     {% for post in posts %}
       <div class="carousel-item {% if forloop.index0 == 0 %}active{% endif %}">
@@ -131,6 +123,14 @@
       </div>
     {% endfor %}
   </div>
+  <ol class="carousel-indicators">
+    {% for post in posts %}
+      <li
+        data-target="#myCarousel"
+        data-slide-to={{ forloop.index0 }}
+      ></li>
+    {% endfor %}
+  </ol>
   <a
     class="carousel-control-prev"
     href="#myCarousel"
