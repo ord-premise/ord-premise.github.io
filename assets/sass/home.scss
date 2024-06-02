@@ -1,0 +1,20 @@
+.home-controls {
+  max-width: 500px;
+  margin: 1.5em auto;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  .btn-brand {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    padding: 0.5em 1em;
+    background-color: $middle-gradient-color;
+    border-color: $middle-gradient-color;
+    color: white;
+
+    &:hover {
+      background-color: white;
+      color: $brand-color;
+    }
+  }
+}

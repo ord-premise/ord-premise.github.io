@@ -4,10 +4,37 @@ layout: page
 
 {{ content }}
 
+<div class="home-controls">
+  <div class="row">
+    <div class="col-4">
+      <a
+        href="/about"
+        class="btn btn-brand"
+      >What is PREMISE?</a>
+    </div>
+    <div class="col-4">
+      <a
+        href="/deliverables"
+        class="btn btn-brand"
+      >What does PREMISE do?</a>
+    </div>
+    <div class="col-4">
+      <a
+        href="/tutorials"
+        class="btn btn-brand"
+      >How does PREMISE do it?</a>
+    </div>
+  </div>
+</div>
+
+<hr/>
+
 {% assign posts = site.posts | sort: "date" %}
 
 {% include carousel.html posts=posts %}
 
-<hr>
+<hr/>
 
-<p>PREMISE is supported by the Open Research Data Program of the ETH Board.</p>
+<p class="text-center">
+  PREMISE is supported by the Open Research Data Program of the ETH Board.
+</p>
