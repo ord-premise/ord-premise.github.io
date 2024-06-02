@@ -1,3 +1,20 @@
+- title: "Towards autonomous robotic battery materials research and innovation - the Aurora platform"
+  link: https://meetbattery2030.eu/
+  authors: Enea Svaluto-Ferro et al.
+  event: Battery 2030+ Annual Conference 4
+  location: Grenoble, France
+  date: May 2024
+  description: A poster describing the Aurora battery assembly and cycling platform at Empa and results from cycling experiment performed within the integrated AiiDA-Aurora system.
+
+- title: Operando Electrochemical Liquid Cell STEM Investigation of the Growth and Evolution of the Mosaic Solid Electrolyte Interphase for Lithium-Ion Batteries
+  link: https://ecs.confex.com/ecs/245/meetingapp.cgi/Paper/187035
+  authors: Corsin Battaglia (invited)
+  event: 245th ECS Meeting
+  location: San Francisco, California, USA
+  date: May 2024
+  description: |
+    The solid electrolyte interphase (SEI) in lithium-ion batteries forms during initial charge cycles at the anode-electrolyte interface, passivating it and enhancing battery life. Operando electrochemical liquid cell scanning transmission electron microscopy (ec-LC-STEM) reveals that SEI formation involves multiple steps, starting with the nucleation of inorganic nanoparticles and evolving into a mosaic structure with organic and inorganic components..
+
 # - title: Towards 4 V class solid-state lithium-metal batteries (Seminar)
 #   link: https://www.uni-muenster.de/de/veranstaltungskalender/prod/ausgabe/termine.php?layout=toptermin-detail&id=37216&einrichtungsid=56
 #   authors: Corsin Battaglia (invited)
