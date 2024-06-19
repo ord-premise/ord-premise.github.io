@@ -60,13 +60,12 @@ subtitle: What is PREMISE?
     {% for partner in site.data.partners %}
       <li>
         <div class="square-image">
-          <img
-            src="/assets/img/logos/{{ partner.logo }}"
-            alt="{{ partner.name }}" 
-          />
-        </div>
-        <div class="name">
-          <a href="{{ partner.link }}">{{ partner.name }}</a>
+          <a href="{{ partner.link }}">
+            <img
+              src="/assets/img/logos/{{ partner.logo }}"
+              alt="{{ partner.name }}" 
+            />
+          </a>
         </div>
       </li>
     {% endfor %}
@@ -76,15 +75,13 @@ subtitle: What is PREMISE?
   <ul class="funding col-lg-10 offset-lg-1">
     {% for funder in site.data.funders %}
       <li class="row align-items-center">
-        <div class="col-sm-4 offset-sm-2 d-flex justify-content-center">
-          <div class="square-image">
-            <a href="{{ funder.link }}">
-              <img
-                src="/assets/img/logos/{{ funder.logo }}"
-                alt="{{ funder.name }}" 
-              />
-            </a>
-          </div>
+        <div class="col-sm-5 offset-sm-1 d-flex justify-content-center">
+          <a href="{{ funder.link }}">
+            <img
+              src="/assets/img/logos/{{ funder.logo }}"
+              alt="{{ funder.name }}" 
+            />
+          </a>
         </div>
         <div class="col-sm-6 text-center text-sm-left">
           {{ funder.description }}

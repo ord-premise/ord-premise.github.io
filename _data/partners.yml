@@ -1,13 +1,45 @@
-- name: BIG-MAP
-  link: "https://www.big-map.eu/"
-  logo: "big_map.png"
-- name: Battery 2030+
-  link: "https://battery2030.eu/"
-  logo: "battery_2030+.png"
-- name: NCCR Catalysis
-  link: "https://www.nccr-catalysis.ch/"
-  logo: "nccr_catalysis.jpg"
 - name: MARVEL
   link: "https://nccr-marvel.ch/"
   logo: "marvel.png"
-  description: "PREMISE is supported by the tools developed under the NCCR MARVEL program"
+- name: Battery 2030+
+  link: "https://battery2030.eu/"
+  logo: "battery2030+.png"
+- name: BIG-MAP
+  link: "https://www.big-map.eu/"
+  logo: "big_map.png"
+- name: CECAM
+  link: "https://www.cecam.org/"
+  logo: "cecam.png"
+- name: NCCR Catalysis
+  link: "https://www.nccr-catalysis.ch/"
+  logo: "nccr_catalysis.png"
+- name: MaRDA
+  link: "https://www.marda-alliance.org/"
+  logo: "marda.svg"
+- name: SINTEF
+  link: "https://www.sintef.no/"
+  logo: "sintef.jpg"
+- name: The ELN Consortium
+  link: "https://github.com/theelnconsortium"
+  logo: "the_eln_consortium.png"
+- name: FAIRmat
+  link: "https://www.fairmat-nfdi.eu/fairmat/"
+  logo: "fairmat.png"
+- name: NFDI4Cat
+  link: "https://nfdi4cat.org/"
+  logo: "nfdi4cat.svg"
+- name: EOSC
+  link: "https://eosc.eu/"
+  logo: "eosc.svg"
+- name: Fraunhofer
+  link: "https://www.fraunhofer.de/"
+  logo: "fraunhofer.png"
+- name: openEM
+  link: "https://swissopenem.github.io/"
+  logo: "openEM.png"
+- name: BAM
+  link: "https://www.bam.de/"
+  logo: "bam.png"
+- name: OPTIMADE
+  link: "https://www.optimade.org/"
+  logo: "optimade.svg"
