@@ -1,3 +1,27 @@
+- title: "PREMISE: Open and Reproducible Materials Science Research"
+  link: https://memento.epfl.ch/event/eth-domain-ord-programme-establish-project-present/
+  authors: Giovanni Pizzi
+  event: ETH Domain ORD programme - Establish project presentations
+  location: Lausanne, Switzerland
+  date: June 2024
+  description: The two Establish projects funded by the ETH Domain ORD programme (PREMISE and OpenEM) presented a summary of the results of the respective projects from the first year, as well as an outlook to the next steps.
+
+- title: "Best practices and standardization efforts for CO2 electrolyzer platforms & equipment overview"
+  link: https://nccr-catalysis.ch/news/
+  authors: Alessandro Senocrate (SNF Ambizione group leader)
+  event: NCCR Catalysis Annual Retreat
+  location: Interlaken, Switzerland
+  date: June 2024
+  description:
+
+- title: "Towards seamless interoperability of open research data from experimental/simulation workflows"
+  link: https://nccr-marvel.ch/events/marvel-junior-seminar-jun2024
+  authors: Edan Bainglass
+  event: MARVEL Junior Seminar 2024 (EPFL)
+  location: Lausanne, Switzerland
+  date: June 2024
+  description: A presentation on the integration of the AiiDA workflow management system with experimental workflows and the PREMISE approach to managing open research data in experimental/simulation workflows.
+
 - title: "Towards autonomous robotic battery materials research and innovation - the Aurora platform"
   link: https://meetbattery2030.eu/
   authors: Enea Svaluto-Ferro et al.
