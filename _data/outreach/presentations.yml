@@ -1,3 +1,20 @@
+- title: "Towards seamless interoperability of open research data from experimental/simulation workflows"
+  link: https://www.terrapinn.com/conference/future-labs-live/index.stm
+  authors: Edan Bainglass
+  event: Future Labs Live 2024
+  location: Basel, Switzerland
+  date: June 2024
+  description: |
+    A presentation on the integration of the AiiDA workflow management system with experimental workflows and the PREMISE approach to managing open research data in experimental/simulation workflows. The talk was also given at the <a href="https://nccr-marvel.ch/events/marvel-junior-seminar-jun2024">2024 MARVEL Junior Seminar</a> (EPFL).
+
+- title: "Towards an autonomous robotic battery materials research platform powered by automated workflow and ontologized FAIR data management"
+  link: https://www.sintef.no/en/events/archive/2024/workshop-on-emerging-battery-technologies/
+  authors: Nukorn Plainpan
+  event: Workshop on Emerging Battery Technologies
+  location: Oslo, Norway
+  date: June 2024
+  description:
+
 - title: "PREMISE: Open and Reproducible Materials Science Research"
   link: https://memento.epfl.ch/event/eth-domain-ord-programme-establish-project-present/
   authors: Giovanni Pizzi
@@ -14,14 +31,6 @@
   date: June 2024
   description:
 
-- title: "Towards seamless interoperability of open research data from experimental/simulation workflows"
-  link: https://nccr-marvel.ch/events/marvel-junior-seminar-jun2024
-  authors: Edan Bainglass
-  event: MARVEL Junior Seminar 2024 (EPFL)
-  location: Lausanne, Switzerland
-  date: June 2024
-  description: A presentation on the integration of the AiiDA workflow management system with experimental workflows and the PREMISE approach to managing open research data in experimental/simulation workflows.
-
 - title: "Towards autonomous robotic battery materials research and innovation - the Aurora platform"
   link: https://meetbattery2030.eu/
   authors: Enea Svaluto-Ferro et al.
@@ -36,17 +45,15 @@
   event: 245th ECS Meeting
   location: San Francisco, California, USA
   date: May 2024
-  description: |
-    The solid electrolyte interphase (SEI) in lithium-ion batteries forms during initial charge cycles at the anode-electrolyte interface, passivating it and enhancing battery life. Operando electrochemical liquid cell scanning transmission electron microscopy (ec-LC-STEM) reveals that SEI formation involves multiple steps, starting with the nucleation of inorganic nanoparticles and evolving into a mosaic structure with organic and inorganic components..
+  description: The solid electrolyte interphase (SEI) in lithium-ion batteries forms during initial charge cycles at the anode-electrolyte interface, passivating it and enhancing battery life. Operando electrochemical liquid cell scanning transmission electron microscopy (ec-LC-STEM) reveals that SEI formation involves multiple steps, starting with the nucleation of inorganic nanoparticles and evolving into a mosaic structure with organic and inorganic components..
 
-# - title: Towards 4 V class solid-state lithium-metal batteries (Seminar)
-#   link: https://www.uni-muenster.de/de/veranstaltungskalender/prod/ausgabe/termine.php?layout=toptermin-detail&id=37216&einrichtungsid=56
-#   authors: Corsin Battaglia (invited)
-#   event: Seminar
-#   location: University of Münster, Münster, Switzerland
-#   date: April 2024
-#   description: |
-#     Application of the Aurora/AiiDA/openBIS platform to solid-state battery research.
+- title: Towards 4 V class solid-state lithium-metal batteries (Seminar)
+  link: https://www.uni-muenster.de/Baccara/news/BACCARA_Public_Lecture_SoSe_2024.html
+  authors: Corsin Battaglia (invited)
+  event: Seminar
+  location: University of Münster, Münster, Switzerland
+  date: April 2024
+  description: Application of the Aurora/AiiDA/openBIS platform to solid-state battery research.
 
 - title: Innovating the batteries of the future
   link: https://memento.epfl.ch/event/imx-seminar-series-innovating-the-batteries-of-the/

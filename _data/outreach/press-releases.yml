@@ -1,3 +1,15 @@
+- title: Experiment ten times faster - fuels and chemicals from CO₂
+  date: June 2024
+  link: https://www.empa.ch/web/s604/parallel-co2-electrolysis
+  description: |
+    An Empa news article highlighting the parallel CO₂ electrolysis process developed at Empa.
+
+- title: NCCR MARVEL Scientific highlight
+  date: April 2024
+  link: https://nccr-marvel.ch/highlights/AiiDA-experiments-aurora
+  description: |
+    An NCCR MARVEL news article highlighting the novelty and impact of integrating the AiiDA WFMS with the Aurora autonomous battery assembly and cycling platform.
+
 - title: Project acceptance
   date: November 2022
   link:
@@ -7,9 +19,3 @@
     - <a href="https://nccr-marvel.ch/news/communication/11-PREMISE">NCCR MARVEL news</a>
     - <a href="https://www.psi.ch/en/lms/scientific-highlights/lms-wins-funding-establish-ord-practices">PSI scientific highlights</a>
     - <a href="https://www.aiida.net/news/posts/2022-11-24-ord-project-premise.html">AiiDA news</a>
-
-- title: NCCR MARVEL Scientific highlight
-  date: April 2024
-  link: https://nccr-marvel.ch/highlights/AiiDA-experiments-aurora
-  description: |
-    An article highlighting the novelty and impact of integrating the AiiDA WFMS with the Aurora autonomous battery assembly and cycling platform.
