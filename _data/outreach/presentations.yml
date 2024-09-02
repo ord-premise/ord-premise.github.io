@@ -1,3 +1,11 @@
+- title: "Automating experimental workflows with AiiDA: From battery cycling to thin-film growth"
+  link: https://indico.psi.ch/event/15694/
+  authors: Edan Bainglass
+  event: Workshop on tips and tricks for the crystal growth of inorganic materials
+  location: PSI, Switzerland
+  date: August 2024
+  description: A poster on the integration of the AiiDA workflow management system with experimental workflows.
+
 - title: "Towards seamless interoperability of open research data from experimental/simulation workflows"
   link: https://www.terrapinn.com/conference/future-labs-live/index.stm
   authors: Edan Bainglass
