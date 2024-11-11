@@ -1,3 +1,11 @@
+- title: "Interoperability of experimental and computational workflows: microscopies, spectroscopies, and autonomous battery cycling"
+  link: https://mse-congress.de/
+  authors: Edan Bainglass
+  event: Materials Science & Engineering 2024
+  location: Darmstadt, Germany
+  date: September 2024
+  description: A talk on applications of the AiiDA workflow management system in automating experimental workflows.
+
 - title: "Automating experimental workflows with AiiDA: From battery cycling to thin-film growth"
   link: https://indico.psi.ch/event/15694/
   authors: Edan Bainglass
