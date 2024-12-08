@@ -1,3 +1,11 @@
+- title: "Automating battery workflows with AiiDA: Towards autonomous labs that are FAIR by design"
+  link: https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting
+  authors: Giovanni Pizzi
+  event: MRS Fall 2024
+  location: Boston, Massachusets, USA
+  date: December 2024
+  description: Showcasing the AiiDA-Aurora integration work as a highlight of efforts towards FAIR, autonomous labs.
+
 - title: "Interoperability of experimental and computational workflows: microscopies, spectroscopies, and autonomous battery cycling"
   link: https://mse-congress.de/
   authors: Edan Bainglass
