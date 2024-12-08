@@ -23,8 +23,8 @@
     This paper provides an expert recommendation on how to verify the numerical correctness, or precision, of simulations performed at the DFT level. This paper both consistutes an important milestone for error estimation of simulations, and demonstrates the use of 11 different simulation codes interoperably, with the same input and outputs across them.
 
 - title: Developments and applications of the OPTIMADE API for materials discovery, design, and data exchange
-  link: https://arxiv.org/abs/2402.00572
-  reference: M. L. Evans et al., arXiv preprint arXiv:2402.00572 (2024)
+  link: https://pubs.rsc.org/en/content/articlelanding/2024/dd/d4dd00039k
+  reference: M. L. Evans et al., Digital Discovery 3.8, 1509-1533 (2024)
   description: |
     This paper discusses the recent advances of the OPTIMADE API, a REST API to provide access to crystal structure data from tens of different database online, both from simulations and from experiments, enabling interoperability of experimental and simulation data in the domain of material science.
 
