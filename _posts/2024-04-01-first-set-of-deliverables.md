@@ -2,7 +2,7 @@
 layout: post
 title: First set of deliverables
 subtitle: Metadata schemas and documentation 📦📦📦
-tags: [deliverable]
+tags: [milestone, deliverable]
 comments: true
 author: Edan Bainglass
 ---

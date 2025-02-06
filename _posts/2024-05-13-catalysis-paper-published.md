@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Catalysis paper published
+title: Catalysis paper published
 subtitle: Electrochemical CO₂ reduction in strongly acidic electrolytes 🧪
 tags: [publication]
 comments: true
