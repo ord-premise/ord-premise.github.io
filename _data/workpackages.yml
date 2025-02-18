@@ -34,7 +34,7 @@
       description: Description coming soon.
       link:
       deadline: September 2025
-      status: planned
+      status: in-progress
 
     - tag: D1.4
       title: General documentation and technical specifications of the metadata requirements for automated publishing of FAIR ORD into open repositories
@@ -64,7 +64,7 @@
       description: Description coming soon.
       link:
       deadline: September 2025
-      status: planned
+      status: in-progress
 
     - tag: D2.3
       title: Export functionality of the combined computational/experimental data for a microscopy research project to an ORD repository, decorated with corresponding metadata in standard formats
@@ -72,7 +72,7 @@
       description: Description coming soon.
       link:
       deadline: March 2026
-      status: planned
+      status: in-progress
 
 - header: "2<sup>nd</sup> use-case - open data from workflow-driven robotic experiments"
   description: "Implement the standards and guidelines of WP 1 to battery research, focusing on the development of a data schema for digital twins, and develop best practices for designing and implementing autonomous robotic materials science labs"
@@ -105,7 +105,7 @@
       description: Description coming soon.
       link:
       deadline: March 2025
-      status: planned
+      status: in-progress
 
     - tag: D3.4
       title: Association of cell assembly and testing data via a digital twin, and an implementation for integrating battery-cell history containing both automated and manual data
@@ -113,7 +113,7 @@
       description: Description coming soon.
       link:
       deadline: March 2025
-      status: planned
+      status: in-progress
 
     - tag: D3.5
       title: Report containing recommendations for enabling automated experimentation, including design of digital twins, domain specific languages, integration of manual and automated experiments
@@ -140,7 +140,7 @@
       description: Description coming soon.
       link:
       deadline: March 2025
-      status: planned
+      status: in-progress
 
     - tag: D4.3
       title: Release demonstrator implementation for selected AiiDA common workflows of use in WP2
@@ -148,7 +148,7 @@
       description: Description coming soon.
       link:
       deadline: September 2025
-      status: planned
+      status: in-progress
 
     - tag: D4.4
       title: Release of documentation of the design of a GUI accessible to non-experts of simulations, and pilot implementation for at least one common workflow interface
@@ -211,7 +211,7 @@
       description: Description coming soon.
       link:
       deadline: March 2026
-      status: planned
+      status: in-progress
 
     - tag: D5.6
       title: Key white papers, scientific publications and documentation on the results of the whole project
@@ -219,4 +219,4 @@
       description: Description coming soon.
       link:
       deadline: March 2026
-      status: planned
+      status: in-progress
