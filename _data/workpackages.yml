@@ -102,10 +102,12 @@
     - tag: D3.3
       title: Domain-specific language for battery assembly and testing, and its implementation in a hardware scheduler
       authors:
-      description: Description coming soon.
-      link:
+        - Nukorn Plainpan
+        - Corsin Battaglia
+      description: Details of and links to a web app designed to convert Excel-based battery metadata into fully ontologized JSON-LD files, primarily using the BattINFO ontology by default.
+      link: https://github.com/ord-premise/battery-domain-specific-language
       deadline: March 2025
-      status: in-progress
+      status: completed
 
     - tag: D3.4
       title: Association of cell assembly and testing data via a digital twin, and an implementation for integrating battery-cell history containing both automated and manual data
