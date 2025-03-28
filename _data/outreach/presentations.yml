@@ -1,3 +1,11 @@
+- title: "Autonomous optimization of coin-cell batteries and thin-film growth"
+  link: https://www.dpg-verhandlungen.de/year/2025/conference/regensburg/part/mm/session/3/contribution/8
+  authors: Edan Bainglass
+  event: DPG Regensburg 2025
+  location: Regensburg, Germany
+  date: March 2025
+  description: An overview of ongoing projects aiming at automating experiments via hardware-software integration, workflow orchastration, Bayesian optimization, and ORD management.
+
 - title: "Automating battery workflows with AiiDA: Towards autonomous labs that are FAIR by design"
   link: https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting
   authors: Giovanni Pizzi

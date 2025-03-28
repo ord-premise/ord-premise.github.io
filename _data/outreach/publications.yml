@@ -1,3 +1,9 @@
+- title: "BattINFO converter: An automated tool for semantic annotation of battery cell metadata"
+  link:
+  reference: submitted as a special issue of Batteries & Supercaps
+  description: |
+    BattINFO converter is an open-source web application designed to convert Excel-based battery metadata into fully ontologized JSON-LD files, primarily using the BattINFO ontology by default. The tool provides flexibility, allowing users to modify the Excel metadata schema to fit their specific battery research needs and choose alternative ontologies as required, enhancing interoperability and data sharing across diverse research platforms.
+
 - title: "Parallel experiments in electrochemical CO₂ reduction enabled by standardized analytics"
   link: https://www.nature.com/articles/s41929-024-01172-x
   reference: A. Senocrate et al., Nat. Catal. 7, 742-752 (2024)
