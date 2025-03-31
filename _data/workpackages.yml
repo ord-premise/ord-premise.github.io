@@ -139,10 +139,12 @@
     - tag: D4.2
       title: Release technical specifications, in machine-actionable metadata formats, for common workflow interfaces
       authors:
-      description: Description coming soon.
-      link:
+        - Edan Bainglass
+        - Giovanni Pizzi
+      description: Technical specifications for interoperable schemas of inputs/outputs for common workflows in Materials Science. The document describes the design choices made in the development of the schemas, technical details, and an example showcasing the use of input/output schemas for a common structure geometry optimization (relaxation) workflow. The document also provides short- and long-term plans to build on the specifications towards development and deployment of auto-generated UIs for common workflows.
+      link: https://github.com/ord-premise/technical-specs-for-common-workflows
       deadline: March 2025
-      status: in-progress
+      status: completed
 
     - tag: D4.3
       title: Release demonstrator implementation for selected AiiDA common workflows of use in WP2
