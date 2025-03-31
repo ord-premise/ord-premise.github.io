@@ -112,10 +112,13 @@
     - tag: D3.4
       title: Association of cell assembly and testing data via a digital twin, and an implementation for integrating battery-cell history containing both automated and manual data
       authors:
-      description: Description coming soon.
-      link:
+        - Nukorn Plainpan
+        - Graham Kimbell
+        - Corsin Battaglia
+      description: An interface for the Aurora battery testing platform to integrate coin cell data and metadata collected from manual/automated assembly and testing experiments into the openBIS ELN, including timestamped metadata spanning the full sample history.
+      link: https://github.com/ord-premise/cell-digital-twin-integration
       deadline: March 2025
-      status: in-progress
+      status: completed
 
     - tag: D3.5
       title: Report containing recommendations for enabling automated experimentation, including design of digital twins, domain specific languages, integration of manual and automated experiments
