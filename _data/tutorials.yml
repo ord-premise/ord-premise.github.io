@@ -22,3 +22,8 @@
   thumbnail: digital-twin-ui.png
   title: "AiiDAlab-Aurora: Model UI for digital twins"
   description: "This video demonstrates the AiiDAlab-Aurora UI for managing, preparing, submitting, and analyzing battery cycling experiments as part of the integrated AiiDA-Aurora automated battery assembling and cycling platform. The app serves as a model for designing UIs for digital twins."
+
+- link: https://www.youtube.com/watch?v=H6Jw9PjZ35E
+  thumbnail: battery-dsl.png
+  title: "BattINFO converter: A tool to facilitate domain-specific language (DSL) adoption"
+  description: "This video demonstrates the BattINFO converter web application, which allows users to convert between the BattINFO DSL implemented in lab-level Excel documents, and the semantically annotated JSON-LD format. The BattINFO DSL is a domain-specific language for describing battery cycling experiments, while JSON-LD is a widely used format for representing linked data. The converter facilitates the adoption of the BattINFO DSL by providing an easy-to-use interface for converting between the two formats."
