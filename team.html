@@ -18,8 +18,8 @@ subtitle: Who is PREMISE?
         <li>
           <div class="round-image">
             <img
-              src="/assets/img/team/{{ person.image }}"
-              alt="{{ person.name }}" 
+                src="{% if person.image contains 'http' %}{{ person.image }}{% else %}/assets/img/team/{{ person.image }}{% endif %}"
+              alt="{{ person.name }}"
             />
           </div>
           <div class="name">
