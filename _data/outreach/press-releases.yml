@@ -1,3 +1,15 @@
+- title: Empa robot delivers largest open dataset for battery research
+  date: September 2025
+  link: https://www.empa.ch/web/s604/aurora-battery-robot-open-source-data-format
+  description: |
+    An Empa news article highlighting the contributions of the Aurora robot platform to battery research through the publication of the largest open battery dataset to date.
+
+- title: LF Energy's Battery Data Alliance releases largest-ever open source Battery Data Format (BDF) contribution
+  date: August 2025
+  link: https://batterydataalliance.energy/lf-energys-battery-data-alliance-releases-largest-ever-open-source-battery-data-format-bdf-contribution/
+  description: |
+    An LF Energy's Battery Data Alliance accouchement of the the largest open-source BDF dataset released to date: 199 NMC//graphite and LFP//graphite coin cells cycled 1,000 times on Empa's Aurora platform, with full provenance and FAIR-compliant interoperability.
+
 - title: Experiment ten times faster - fuels and chemicals from CO₂
   date: June 2024
   link: https://www.empa.ch/web/s604/parallel-co2-electrolysis

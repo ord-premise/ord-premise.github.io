@@ -1,14 +1,26 @@
-# - title: "BattINFO converter: An automated tool for semantic annotation of battery cell metadata"
-#   link:
-#   reference: submitted as a special issue of Batteries & Supercaps
-#   description: |
-#     BattINFO converter is an open-source web application designed to convert Excel-based battery metadata into fully ontologized JSON-LD files, primarily using the BattINFO ontology by default. The tool provides flexibility, allowing users to modify the Excel metadata schema to fit their specific battery research needs and choose alternative ontologies as required, enhancing interoperability and data sharing across diverse research platforms.
+- title: "Toward an autonomous robotic battery materials research platform powered by automated workflow and ontologized findable, accessible, interoperable, and reusable data management"
+  link: https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/batt.202500155
+  reference: E. Svaluto-Ferro et al., Batteries & Supercaps, 2500155 (2025)
+  description: |
+    This study presents a comprehensive validation of the robotic battery materials research platform Aurora, automating electrolyte formulation, coin cell assembly, and coin cell cycling. A large, structured dataset with ontologized metadata detailing cell assembly and cycling protocols, alongside corresponding time series cycling data for NMC||graphite and LFP||graphite cells is provided as open research data.
+
+- title: "BattINFO converter: An automated tool for semantic annotation of battery cell metadata"
+  link: https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/batt.202500151
+  reference: N. Plainpan et al., Batteries & Supercaps, 2500151 (2025)
+  description: |
+    BattINFO converter is an open-source web application designed to convert Excel-based battery metadata into fully ontologized JSON-LD files, primarily using the BattINFO ontology by default. The tool provides flexibility, allowing users to modify the Excel metadata schema to fit their specific battery research needs and choose alternative ontologies as required, enhancing interoperability and data sharing across diverse research platforms.
+
+- title: "(Bi)carbonate precipitation and gas diffusion electrode stability coexist during pulsed electrochemical CO₂ reduction"
+  link: https://pubs.acs.org/doi/full/10.1021/acsenergylett.4c03042
+  reference: F. Bernasconi et al., ACS Energy Lett. 10, 2, 635-638 (2025)
+  description: |
+    Pulsed electrolysis is an effective strategy to stabilize the high selectivity of Cu gas diffusion electrodes toward C≥₂ products, the decrease of which over time under continuous operation is often ascribed to (bi)carbonate precipitation. Here, we demonstrate via operando wide-angle X-ray scattering that (bi)carbonate crystals precipitate even during pulsed electrolysis but without causing losses in C≥₂ product selectivity.
 
 - title: "Parallel experiments in electrochemical CO₂ reduction enabled by standardized analytics"
   link: https://www.nature.com/articles/s41929-024-01172-x
   reference: A. Senocrate et al., Nat. Catal. 7, 742-752 (2024)
   description: |
-    This paper presents a comprehensive analytical system for electrochemical CO₂ reduction (eCO2R) that integrates commercial hardware and open-source software to accurately measure and analyze the performance of catalysts, electrodes, and electrolysers with high time resolution and data processing capabilities.
+    This paper presents a comprehensive analytical system for electrochemical CO₂ reduction (eCO₂R) that integrates commercial hardware and open-source software to accurately measure and analyze the performance of catalysts, electrodes, and electrolysers with high time resolution and data processing capabilities.
 
 - title: "Operando observation of (Bi)carbonate precipitation during electrochemical CO₂ reduction in strongly acidic electrolytes"
   link: https://pubs.acs.org/doi/full/10.1021/acscatal.4c01884
@@ -18,7 +30,7 @@
 
 - title: "A bridge between trust and control: Computational workflows meet automated battery cycling"
   link: https://pubs.rsc.org/en/Content/ArticleLanding/2024/TA/D3TA06889G
-  reference: P. Kraus et al., J. Mater. Chem. A, 18, 12, 10773-10783 (2024)
+  reference: P. Kraus et al., J. Mater. Chem. A 18, 12, 10773-10783 (2024)
   description: |
     This paper discusses the first-ever integration of a workflow manager system (AiiDA) with an autonomous battery assembly/cycling platform (Aurora).
 
