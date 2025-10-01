@@ -158,10 +158,11 @@
     - tag: D4.3
       title: Release demonstrator implementation for selected AiiDA common workflows of use in WP2
       authors:
+        - Edan Bainglass
       description: An AiiDA common workflow showcasing the use of input/output schemas for a common structure geometry optimization (relaxation) workflow extended for use in microscopies of molecules and AFM simulations.
-      link:
+      link: https://github.com/ord-premise/afm-common-workflow
       deadline: September 2025
-      status: in-progress
+      status: completed
 
     - tag: D4.4
       title: Release of documentation of the design of a GUI accessible to non-experts of simulations, and pilot implementation for at least one common workflow interface
