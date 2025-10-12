@@ -30,9 +30,10 @@
 
     - tag: D1.3
       title: Full interoperability of ELNs and WFMSs demonstrated for openBIS and AiiDAlab
-      authors:
-      description: Description coming soon.
-      link:
+      authors: Edan Bainglass, Andreas Meier, Juan Fuentes, Pascal Su, Simone Baffelli
+      description: A demonstration of full interoperability between ELNs and WFMSs, demonstrated for openBIS and AiiDAlab, leveraging an extended RO-Crate standard to facilitate platform-agnostic data and metadata exchange.
+      current: October 2025
+      link: https://github.com/ord-premise/ro-crate-driven-eln-wfms-interoperability
       deadline: September 2025
       status: in-progress
 
@@ -60,8 +61,9 @@
 
     - tag: D2.2
       title: Demonstration of full interoperability of an ELN-LIMS and a WFMS, leveraging D1.3, for microscopy experiments, with full provenance of microscopy simulations integrated back in the original ELN-LIMS, alongside the corresponding experimental data
-      authors:
-      description: Description coming soon.
+      authors: Edan Bainglass, Fabio Lopes, Carlo Pignedoli
+      description: A demonstration of full interoperability between openBIS and AiiDAlab, leveraging the platform-agnostic approach detailed in D1.3, here applied to the use-case of microscopy experiments and simulations of molecules on surfaces.
+      current: Under development
       link:
       deadline: September 2025
       status: in-progress
