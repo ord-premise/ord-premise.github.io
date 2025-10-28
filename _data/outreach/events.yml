@@ -1,5 +1,13 @@
+- title: "MADICES 3"
+  link: https://madices.github.io/docs/2025/
+  organizers: E. Bainglass, C. Barillari, M. L. Evans, S. Pearman-Kanza, J. Rudzinski, J. Schaarschmidt
+  location: PSI, Switzerland
+  date: October 20-24, 2025
+  description: |
+    In MADICES 3, we continued the work of the previous MADICES workshops to further advance interoperability between research data management systems. Once again, experts from ELNs, WFMSs, RDM interoperability, and ontologies came together to discuss the current state of interoperability considering metadata standards, APIs, ORD transfer protocols, use of AI/LLMs, interfacing with laboratory instruments, and research community engagement and adoption. The workshop included presentations, an expert panel, breakout sessions, a hands-on hackathon, and breaks for informal discussions and networking.
+
 - title: "MADICES 2"
-  link: https://madices.github.io/
+  link: https://madices.github.io/docs/2024/
   organizers: E. Bainglass, C. Barillari, P. Kraus, M. L. Evans, K. M. Jablonka
   location: Berlin, Germany
   date: April 22-25, 2024
