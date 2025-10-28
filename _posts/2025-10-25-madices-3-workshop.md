@@ -11,6 +11,19 @@ The MADICES 3 workshop was held on October 20-24, 2025 in PSI, Switzerland. As w
 
 After a day of orientation including introductions, an expert panel, and selected talks, the remainder of the workshop was dedicated to breakout sessions on the various topics of interest (see below), conceptual alignment, development of concrete outcomes, and implementation time including a hands-on hackathon. The workshop ended with a summary session including presentations from each working group and a discussion of next steps, including continued engagement, collaboration, and dissemination of results, as well as plans for future MADICES workshops.
 
+## Organizers
+
+- Edan Bainglass (PSI, PREMISE)
+- Caterina Barillari (ETH Zurich, PREMISE)
+- Matthew Evans (University of Cambridge)
+- Samantha Pearman-Kanza (University of Southampton and PSDI)
+- Joseph Rudzinski (Humboldt-Universität zu Berlin and FAIRmat)
+- Jörg Schaarschmidt (Karlsruhe Institute of Technology (KIT) and MaterialDigital)
+
+## Sponsors
+
+Along with PREMISE, MADICES 3 was supported by [CECAM](https://www.cecam.org/workshop-details/madices-3-machine-actionable-data-interoperability-for-the-chemical-sciences-1450) and [PSDI](https://www.psdi.ac.uk/).
+
 ## Working groups
 
 - [Common schemas for workflows](https://github.com/MADICES/MADICES-2025/discussions/21)

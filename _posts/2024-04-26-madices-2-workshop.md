@@ -11,6 +11,18 @@ The MADICES 2 workshop was held on April 22-25 in Berlin. The audience included 
 
 After an introductory session of presentations and discussion detailing individual/shared interest, the audience split into three primary working groups, each with a dedicated set of repositories for discussion and outcome (see below).
 
+## Organizers
+
+- Edan Bainglass (PSI, PREMISE)
+- Caterina Barillari (ETH Zurich, PREMISE)
+- Matthew Evans (University of Cambridge)
+- Kevin Maik Jablonka (Friedrich-Schiller-Universität Jena)
+- Peter Kraus (Technische Universität Berlin)
+
+## Sponsors
+
+Along with PREMISE, MADICES 2 was supported by [CECAM](https://www.cecam.org/workshop-details/machine-actionable-data-interoperability-for-the-chemical-sciences-madices-2-1321), [UCLouvain](https://www.uclouvain.be/), and [TU Berlin](https://www.tu.berlin/).
+
 ## Working groups
 
 - [Semantic annotation standards and tools](https://github.com/MADICES/MADICES-2024/discussions/9)
