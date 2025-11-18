@@ -224,10 +224,12 @@
     - tag: D5.5
       title: Yearly MADICES workshop, third year
       authors:
+        - Edan Bainglass
+        - Caterina Barillari
       description: The third workshop in the MADICES series held at PSI.
-      link:
+      link: https://madices.github.io/docs/2025/
       deadline: March 2026
-      status: in-progress
+      status: completed
 
     - tag: D5.6
       title: Key white papers, scientific publications and documentation on the results of the whole project
