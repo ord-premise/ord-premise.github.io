@@ -1,29 +1,85 @@
 - link: https://www.youtube.com/watch?v=JKnmcO2ohqY
   thumbnail: ontologizing-metadata.png
   title: "A guide to ontologizing metadata"
-  description: "This video discusses the benefits and challenges of ontologizing metadata in open science. It highlights some of the available tools and presents the guidelines and best-practices developed in PREMISE for providing semantic meaning to datasets."
+  description: "This video discusses the benefits and challenges of ontologizing
+    metadata in open science. It highlights some of the available tools and
+    presents the guidelines and best-practices developed in PREMISE for
+    providing semantic meaning to datasets."
 
 - link: https://www.youtube.com/watch?v=jss_eE_3YfI
   thumbnail: aiidalab-openbis.png
   title: "openBIS-AiiDAlab interoperability"
-  description: "This video demonstrates the current state of open data interoperability between the openBIS electronic lab notebook (ELN) and the AiiDAlab GUI companion to the AiiDA workflow management system (WFMS). The interoperability demo stresses the use of the newly defined metadata schema for microscopy and spectroscopy developed in PREMISE."
+  description: "This video demonstrates the current state of open data
+    interoperability between the openBIS electronic lab notebook (ELN) and the
+    AiiDAlab GUI companion to the AiiDA workflow management system (WFMS). The
+    interoperability demo stresses the use of the newly defined metadata schema
+    for microscopy and spectroscopy developed in PREMISE."
 
 - link: https://www.youtube.com/watch?v=4ml6H6Np0Wo
   thumbnail: platform-agnostic.png
   title: "Platform-agnostic ORD interoperability"
-  description: "This video presents the concept of and demonstrates a new data transfer protocol using JSON-LD and RO-Crate, both semantically annotated with ontological references (IRIs), as a path towards platform-agnostic interoperability in open science."
+  description: "This video presents the concept of and demonstrates a new data
+    transfer protocol using JSON-LD and RO-Crate, both semantically annotated
+    with ontological references (IRIs), as a path towards platform-agnostic
+    interoperability in open science."
 
 - link: https://www.youtube.com/watch?v=5qSqEtDp7n0
   thumbnail: openbis-imaging-tech.png
   title: "openBIS imaging technology plugin"
-  description: "This video demonstrates the openBIS electronic lab notebook (ELN) new generic imaging technology plugin system, which allows openBIS users to model 1D and 2D datasets visually directly in the ELN. The demo highlights a use case for STM imaging."
+  description: "This video demonstrates the openBIS electronic lab notebook (ELN)
+    new generic imaging technology plugin system, which allows openBIS users to
+    model 1D and 2D datasets visually directly in the ELN. The demo highlights a
+    use case for STM imaging."
 
 - link: https://www.youtube.com/watch?v=0kz9Voqp3jk
   thumbnail: digital-twin-ui.png
   title: "AiiDAlab-Aurora: Model UI for digital twins"
-  description: "This video demonstrates the AiiDAlab-Aurora UI for managing, preparing, submitting, and analyzing battery cycling experiments as part of the integrated AiiDA-Aurora automated battery assembling and cycling platform. The app serves as a model for designing UIs for digital twins."
+  description: "This video demonstrates the AiiDAlab-Aurora UI for managing,
+    preparing, submitting, and analyzing battery cycling experiments as part of
+    the integrated AiiDA-Aurora automated battery assembling and cycling
+    platform. The app serves as a model for designing UIs for digital twins."
 
 - link: https://www.youtube.com/watch?v=H6Jw9PjZ35E
   thumbnail: battery-dsl.png
-  title: "BattINFO converter: A tool to facilitate domain-specific language (DSL) adoption"
-  description: "This video demonstrates the BattINFO converter web application, which allows users to convert between the BattINFO DSL implemented in lab-level Excel documents, and the semantically annotated JSON-LD format. The BattINFO DSL is a domain-specific language for describing battery cycling experiments, while JSON-LD is a widely used format for representing linked data. The converter facilitates the adoption of the BattINFO DSL by providing an easy-to-use interface for converting between the two formats."
+  title: "BattINFO converter: A tool to facilitate domain-specific language (DSL)
+    adoption"
+  description: "This video demonstrates the BattINFO converter web application,
+    which allows users to convert between the BattINFO DSL implemented in
+    lab-level Excel documents, and the semantically annotated JSON-LD format.
+    The BattINFO DSL is a domain-specific language for describing battery
+    cycling experiments, while JSON-LD is a widely used format for representing
+    linked data. The converter facilitates the adoption of the BattINFO DSL by
+    providing an easy-to-use interface for converting between the two formats."
+
+- link: https://www.youtube.com/watch?v=WECOK0HzPD4s
+  thumbnail: sample-prep.png
+  title: "Sample Preparation Registration: Register sample preparation in ELN"
+  description: "This demo shows how to register a sample preparation starting from
+    the raw materials."
+
+- link: https://www.youtube.com/watch?v=klPp7Ae6TDM
+  thumbnail: eln-simulation-start.png
+  title: "From ELN to simulation: Begin simulation workflow from materials in ELN"
+  description: "This demo shows how to start a simulation from a molecule in the ELN."
+
+- link: https://www.youtube.com/watch?v=tC1OsrSAa6I
+  thumbnail: export-to-openbis.png
+  title: "Export simulation to openBIS: WFMS simulations exporter"
+  description: "This demo shows how to export simulations performed in AiiDAlab to openBIS."
+
+- link: https://www.youtube.com/watch?v=9EVefjX_brY
+  thumbnail: chatbot.png
+  title: "AiiDAlab Chatbot for openBIS: An agentic interface to query for ELN data"
+  description: "This demo shows how an AI agent can be used to interact with an
+    ELN from an external platform, e.g., AiiDAlab."
+
+- link: https://www.youtube.com/watch?v=sjPH_Zq116Y
+  thumbnail: explore-provenance.png
+  title: "Explore publication provenance: Graph connecting publication to experiments"
+  description: "This demo shows how materials and experiments are linked to the
+    publication."
+
+- link: https://www.youtube.com/watch?v=rTl5hP-McJo
+  thumbnail: export-to-zenodo.png
+  title: "Export publication to Zenodo: Zenodo exporter"
+  description: "This demo shows how to export a publication from the ELN to zenodo."
