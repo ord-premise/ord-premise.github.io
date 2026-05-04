@@ -1,8 +1,14 @@
-- header: "Enabling seamless integration of data from experimental and simulation workflows"
-  description: "Develop metadata standards for machine-actionable interoperability between electronic lab notebooks (ELNs)/lab information management systems (LIMSs) and workflow management systems (WFMSs), apply these standards to Materials Science ontologies, and demostrate full integration via a closed-loop ELN-WFMS workflow"
+- header: "Enabling seamless integration of data from experimental and simulation
+    workflows"
+  description: "Develop metadata standards for machine-actionable interoperability
+    between electronic lab notebooks (ELNs)/lab information management systems
+    (LIMSs) and workflow management systems (WFMSs), apply these standards to
+    Materials Science ontologies, and demostrate full integration via a
+    closed-loop ELN-WFMS workflow"
   deliverables:
     - tag: D1.1
-      title: Metadata schema and documentation/white paper for interoperable experimental-simulation materials science
+      title: Metadata schema and documentation/white paper for interoperable
+        experimental-simulation materials science
       authors:
         - Nukorn Plainpan
         - Fabio Lopes
@@ -11,80 +17,110 @@
         - Corsin Battaglia
         - Carlo Pignedoli
         - Giovanni Pizzi
-      description: A documentation of our gained experience in the development and usage of ontologies to facilitate interoperability in experimental-simulation materials science research.
+      description: A documentation of our gained experience in the development and
+        usage of ontologies to facilitate interoperability in
+        experimental-simulation materials science research.
       current: March 2024
       link: https://github.com/ord-premise/interoperability-guidelines
       deadline: March 2024
       status: completed
 
     - tag: D1.2
-      title: First demonstration of AiiDAlab-openBIS interoperability supporting newly defined metadata schemas and practices
+      title: First demonstration of AiiDAlab-openBIS interoperability supporting newly
+        defined metadata schemas and practices
       authors:
         - Fabio Lopes
         - Aliaksandr Yakutovich
         - Carlo Pignedoli
-      description: A demonstration of interoperability between openBIS and AiiDAlab following best-practices detailed in D1.1 and leveraging metadata schemas defined in D2.1.
+      description: A demonstration of interoperability between openBIS and AiiDAlab
+        following best-practices detailed in D1.1 and leveraging metadata
+        schemas defined in D2.1.
       link: https://www.youtube.com/watch?v=jss_eE_3YfI
       deadline: May 2024
       status: completed
 
     - tag: D1.3
-      title: Full interoperability of ELNs and WFMSs demonstrated for openBIS and AiiDAlab
+      title: Full interoperability of ELNs and WFMSs demonstrated for openBIS and
+        AiiDAlab
       authors: Edan Bainglass, Andreas Meier, Juan Fuentes, Pascal Su, Simone Baffelli
-      description: A demonstration of full interoperability between ELNs and WFMSs, demonstrated for openBIS and AiiDAlab, leveraging an extended RO-Crate standard to facilitate platform-agnostic data and metadata exchange.
+      description: A demonstration of full interoperability between ELNs and WFMSs,
+        demonstrated for openBIS and AiiDAlab, leveraging an extended RO-Crate
+        standard to facilitate platform-agnostic data and metadata exchange.
       current: October 2025
       link: https://github.com/ord-premise/ro-crate-driven-eln-wfms-interoperability
       deadline: September 2025
       status: in-progress
 
     - tag: D1.4
-      title: General documentation and technical specifications of the metadata requirements for automated publishing of FAIR ORD into open repositories
+      title: General documentation and technical specifications of the metadata
+        requirements for automated publishing of FAIR ORD into open repositories
       authors:
       description: Description coming soon.
       link:
       deadline: March 2026
       status: planned
 
-- header: "1<sup>st</sup> use-case - open data from simulation-assisted experimental interpretation"
-  description: "Implement the standards and guidelines of WP 1 to simulation-assisted experiments, with particular focus to the broad fields of microscopy and spectroscopy, including automation of research data publishing to open repositories"
+- header: "1<sup>st</sup> use-case - open data from simulation-assisted
+    experimental interpretation"
+  description: "Implement the standards and guidelines of WP 1 to
+    simulation-assisted experiments, with particular focus to the broad fields
+    of microscopy and spectroscopy, including automation of research data
+    publishing to open repositories"
   deliverables:
     - tag: D2.1
-      title: Common data/metadata format to store and access microscopy data from simulations and experiments in a single platform and visualize within the same GUI
+      title: Common data/metadata format to store and access microscopy data from
+        simulations and experiments in a single platform and visualize within
+        the same GUI
       authors:
         - Fabio Lopez
         - Carlo A. Pignedoli
-      description: The first version of a metadata schema mapping experiments and simulations of microscopy/spectroscopy of molecules on surfaces.
+      description: The first version of a metadata schema mapping experiments and
+        simulations of microscopy/spectroscopy of molecules on surfaces.
       current: September 2024
       link: https://github.com/ord-premise/metadata-spectroscopy
       deadline: September 2024
       status: completed
 
     - tag: D2.2
-      title: Demonstration of full interoperability of an ELN-LIMS and a WFMS, leveraging D1.3, for microscopy experiments, with full provenance of microscopy simulations integrated back in the original ELN-LIMS, alongside the corresponding experimental data
+      title: Demonstration of full interoperability of an ELN-LIMS and a WFMS,
+        leveraging D1.3, for microscopy experiments, with full provenance of
+        microscopy simulations integrated back in the original ELN-LIMS,
+        alongside the corresponding experimental data
       authors: Edan Bainglass, Fabio Lopes, Carlo Pignedoli
-      description: A demonstration of full interoperability between openBIS and AiiDAlab, leveraging the platform-agnostic approach detailed in D1.3, here applied to the use-case of microscopy experiments and simulations of molecules on surfaces.
+      description: A demonstration of full interoperability between openBIS and
+        AiiDAlab, leveraging the platform-agnostic approach detailed in D1.3,
+        here applied to the use-case of microscopy experiments and simulations
+        of molecules on surfaces.
       current: Under development
       link:
       deadline: September 2025
       status: in-progress
 
     - tag: D2.3
-      title: Export functionality of the combined computational/experimental data for a microscopy research project to an ORD repository, decorated with corresponding metadata in standard formats
+      title: Export functionality of the combined computational/experimental data for
+        a microscopy research project to an ORD repository, decorated with
+        corresponding metadata in standard formats
       authors:
       description: Description coming soon.
       link:
       deadline: March 2026
       status: in-progress
 
-- header: "2<sup>nd</sup> use-case - open data from workflow-driven robotic experiments"
-  description: "Implement the standards and guidelines of WP 1 to battery research, focusing on the development of a data schema for digital twins, and develop best practices for designing and implementing autonomous robotic materials science labs"
+- header: "2<sup>nd</sup> use-case - open data from workflow-driven robotic
+    experiments"
+  description: "Implement the standards and guidelines of WP 1 to battery
+    research, focusing on the development of a data schema for digital twins,
+    and develop best practices for designing and implementing autonomous robotic
+    materials science labs"
   deliverables:
     - tag: D3.1
       title: Data schema for a digital twin applicable in battery research
       authors:
         - Nukorn Plainpan
         - Corsin Battaglia
-      description: The first version of an ontologized metadata schema for digital twins in battery research, specifically coin-cell assembly and cycling studies.
+      description: The first version of an ontologized metadata schema for digital
+        twins in battery research, specifically coin-cell assembly and cycling
+        studies.
       current: March 2024
       link: https://github.com/ord-premise/metadata-batteries
       deadline: March 2024
@@ -95,46 +131,67 @@
       authors:
         - Edan Bainglass
         - Giovanni Pizzi
-      description: A documentation of our gained experience in designing user interfaces to interact with digital twins. We provide here a set of recommendations for designing such interfaces both in ELNs and WFMSs, covering storage, history tracking, analysis tools, and more, with an emphasis on user experience.
+      description: A documentation of our gained experience in designing user
+        interfaces to interact with digital twins. We provide here a set of
+        recommendations for designing such interfaces both in ELNs and WFMSs,
+        covering storage, history tracking, analysis tools, and more, with an
+        emphasis on user experience.
       current: May 2024
       link: https://github.com/ord-premise/digital-twins-interface-design
       deadline: March 2024
       status: completed
 
     - tag: D3.3
-      title: Domain-specific language for battery assembly and testing, and its implementation in a hardware scheduler
+      title: Domain-specific language for battery assembly and testing, and its
+        implementation in a hardware scheduler
       authors:
         - Nukorn Plainpan
         - Corsin Battaglia
-      description: Details of and links to a web app designed to convert Excel-based battery metadata into fully ontologized JSON-LD files, primarily using the BattINFO ontology by default.
+      description: Details of and links to a web app designed to convert Excel-based
+        battery metadata into fully ontologized JSON-LD files, primarily using
+        the BattINFO ontology by default.
       link: https://github.com/ord-premise/battery-domain-specific-language
       deadline: March 2025
       status: completed
 
     - tag: D3.4
-      title: Association of cell assembly and testing data via a digital twin, and an implementation for integrating battery-cell history containing both automated and manual data
+      title: Association of cell assembly and testing data via a digital twin, and an
+        implementation for integrating battery-cell history containing both
+        automated and manual data
       authors:
         - Nukorn Plainpan
         - Graham Kimbell
         - Corsin Battaglia
-      description: An interface for the Aurora battery testing platform to integrate coin cell data and metadata collected from manual/automated assembly and testing experiments into the openBIS ELN, including timestamped metadata spanning the full sample history.
+      description: An interface for the Aurora battery testing platform to integrate
+        coin cell data and metadata collected from manual/automated assembly and
+        testing experiments into the openBIS ELN, including timestamped metadata
+        spanning the full sample history.
       link: https://github.com/ord-premise/cell-digital-twin-integration
       deadline: March 2025
       status: completed
 
     - tag: D3.5
-      title: Report containing recommendations for enabling automated experimentation, including design of digital twins, domain specific languages, integration of manual and automated experiments
+      title: Report containing recommendations for enabling automated experimentation,
+        including design of digital twins, domain specific languages,
+        integration of manual and automated experiments
       authors:
-      description: A set of recommendations for standards and protocols to enable the integration of open research data from battery assembly and testing experiments, both manual and automated, following the guidelines developed throughout the project, including the use of digital twins and domain-specific languages.
+      description: A set of recommendations for standards and protocols to enable the
+        integration of open research data from battery assembly and testing
+        experiments, both manual and automated, following the guidelines
+        developed throughout the project, including the use of digital twins and
+        domain-specific languages.
       link:
       deadline: March 2026
       status: planned
 
 - header: "Reproducible and accessible materials experiments and simulations"
-  description: "Design standard templates, visualizers, and modular interfaces for materials science, including common machine-actionable workflows to predict materials properties"
+  description: "Design standard templates, visualizers, and modular interfaces for
+    materials science, including common machine-actionable workflows to predict
+    materials properties"
   deliverables:
     - tag: D4.1
-      title: Fully customized version for Materials Science for openBIS, bringing openBIS to the next level
+      title: Fully customized version for Materials Science for openBIS, bringing
+        openBIS to the next level
       authors:
         - Mihai-Cosmin Danaila
         - Juan Fuentes
@@ -142,47 +199,70 @@
         - Fabio Lopes
         - Carlo Pignedoli
         - Bruno Schuler
-      description: A tailored version of openBIS for materials science, featuring custom templates, visualizers, and interface components to streamline data management and analysis, including an imaging technology plugin for direct visualization of Nanonis SXM and microscopy DAT files within the openBIS web interface.
+      description: A tailored version of openBIS for materials science, featuring
+        custom templates, visualizers, and interface components to streamline
+        data management and analysis, including an imaging technology plugin for
+        direct visualization of Nanonis SXM and microscopy DAT files within the
+        openBIS web interface.
       link: https://github.com/ord-premise/openbis-for-materials-science
       deadline: March 2025
       status: completed
 
     - tag: D4.2
-      title: Release technical specifications, in machine-actionable metadata formats, for common workflow interfaces
+      title: Release technical specifications, in machine-actionable metadata formats,
+        for common workflow interfaces
       authors:
         - Edan Bainglass
         - Giovanni Pizzi
-      description: Technical specifications for interoperable schemas of inputs/outputs for common workflows in Materials Science. The document describes the design choices made in the development of the schemas, technical details, and an example showcasing the use of input/output schemas for a common structure geometry optimization (relaxation) workflow. The document also provides short- and long-term plans to build on the specifications towards development and deployment of auto-generated UIs for common workflows.
+      description: Technical specifications for interoperable schemas of
+        inputs/outputs for common workflows in Materials Science. The document
+        describes the design choices made in the development of the schemas,
+        technical details, and an example showcasing the use of input/output
+        schemas for a common structure geometry optimization (relaxation)
+        workflow. The document also provides short- and long-term plans to build
+        on the specifications towards development and deployment of
+        auto-generated UIs for common workflows.
       link: https://github.com/ord-premise/technical-specs-for-common-workflows
       deadline: March 2025
       status: completed
 
     - tag: D4.3
-      title: Release demonstrator implementation for selected AiiDA common workflows of use in WP2
+      title: Release demonstrator implementation for selected AiiDA common workflows
+        of use in WP2
       authors:
         - Edan Bainglass
-      description: An AiiDA common workflow showcasing the use of input/output schemas for a common structure geometry optimization (relaxation) workflow extended for use in microscopies of molecules and AFM simulations.
+      description: An AiiDA common workflow showcasing the use of input/output schemas
+        for a common structure geometry optimization (relaxation) workflow
+        extended for use in microscopies of molecules and AFM simulations.
       link: https://github.com/ord-premise/afm-common-workflow
       deadline: September 2025
       status: completed
 
     - tag: D4.4
-      title: Release of documentation of the design of a GUI accessible to non-experts of simulations, and pilot implementation for at least one common workflow interface
+      title: Release of documentation of the design of a GUI accessible to non-experts
+        of simulations, and pilot implementation for at least one common
+        workflow interface
       authors:
-      description: A documentation of our gained experience in designing user interfaces to interact with common workflows in Materials Science, highlighting an example implementation of such an interface driving the common workflow designed in D4.3.
+      description: A documentation of our gained experience in designing user
+        interfaces to interact with common workflows in Materials Science,
+        highlighting an example implementation of such an interface driving the
+        common workflow designed in D4.3.
       link: https://github.com/ord-premise/common-workflows-gui
       deadline: March 2026
       status: completed
 
 - header: "Project management and outreach"
-  description: "Coordinate and manage project tasks and organise outreach via follow-up MADICES conferences and online presence"
+  description: "Coordinate and manage project tasks and organise outreach via
+    follow-up MADICES conferences and online presence"
   deliverables:
     - tag: D5.1
       title: Yearly MADICES workshop, first year
       authors:
         - Edan Bainglass
         - Caterina Barillari
-      description: The second workshop in the MADICES series brought together RDM platform representatives and ontology experts to discuss how to best facilitate ORD interoperability. See link for further details.
+      description: The second workshop in the MADICES series brought together RDM
+        platform representatives and ontology experts to discuss how to best
+        facilitate ORD interoperability. See link for further details.
       link: https://madices.github.io/docs/2024/
       deadline: March 2024
       status: completed
@@ -216,7 +296,8 @@
     - tag: D5.4
       title: Final scientific and financial report
       authors:
-      description: The final reporting from PREMISE detailing the work carried out throughout the project.
+      description: The final reporting from PREMISE detailing the work carried out
+        throughout the project.
       link:
       deadline: March 2026
       status: planned
@@ -232,7 +313,8 @@
       status: completed
 
     - tag: D5.6
-      title: Key white papers, scientific publications and documentation on the results of the whole project
+      title: Key white papers, scientific publications and documentation on the
+        results of the whole project
       authors:
       description: Description coming soon.
       link:
