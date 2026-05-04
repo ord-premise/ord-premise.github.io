@@ -1,3 +1,10 @@
+- title: "Making atomistic materials calculations accessible with the AiiDAlab
+    Quantum ESPRESSO app"
+  link: https://www.nature.com/articles/s41524-025-01936-4
+  reference: X. Wang et al., npj Comput Mater, 12, 72 (2026)
+  description: |
+    The AiiDAlab Quantum ESPRESSO (QE) app is a web-based platform that simplifies density functional theory workflows through an intuitive interface, automated protocols, and a modular plugin architecture. By integrating setup, execution, and analysis while adhering to FAIR principles, it makes advanced simulations more accessible, reproducible, and extensible across first-principles codes.
+
 - title: "Toward an autonomous robotic battery materials research platform powered
     by automated workflow and ontologized findable, accessible, interoperable,
     and reusable data management"
