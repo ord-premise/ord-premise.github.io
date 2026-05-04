@@ -58,7 +58,7 @@
       description: Description coming soon.
       link:
       deadline: March 2026
-      status: planned
+      status: in-progress
 
 - header: "1<sup>st</sup> use-case - open data from simulation-assisted
     experimental interpretation"
@@ -186,7 +186,7 @@
         domain-specific languages.
       link:
       deadline: March 2026
-      status: planned
+      status: in-progress
 
 - header: "Reproducible and accessible materials experiments and simulations"
   description: "Design standard templates, visualizers, and modular interfaces for
