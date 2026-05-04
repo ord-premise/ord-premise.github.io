@@ -86,25 +86,29 @@
         leveraging D1.3, for microscopy experiments, with full provenance of
         microscopy simulations integrated back in the original ELN-LIMS,
         alongside the corresponding experimental data
-      authors: Edan Bainglass, Fabio Lopes, Carlo Pignedoli
+      authors: Edan Bainglass
       description: A demonstration of full interoperability between openBIS and
         AiiDAlab, leveraging the platform-agnostic approach detailed in D1.3,
         here applied to the use-case of microscopy experiments and simulations
         of molecules on surfaces.
-      current: Under development
-      link:
+      current: March 2026
+      link: https://github.com/ord-premise/finales-mediated-eln-wfms-interoperability
       deadline: September 2025
-      status: in-progress
+      status: completed
 
     - tag: D2.3
       title: Export functionality of the combined computational/experimental data for
         a microscopy research project to an ORD repository, decorated with
         corresponding metadata in standard formats
-      authors:
-      description: Description coming soon.
-      link:
+      authors: The PREMISE team
+      description: A demonstration of the export functionality of the combined
+        computational/experimental data for a microscopy research project to an
+        ORD repository, decorated with corresponding metadata in standard
+        formats.
+      current: March 2026
+      link: https://github.com/ord-premise/finales-mediated-eln-wfms-interoperability
       deadline: March 2026
-      status: in-progress
+      status: completed
 
 - header: "2<sup>nd</sup> use-case - open data from workflow-driven robotic
     experiments"
