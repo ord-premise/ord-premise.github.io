@@ -42,14 +42,14 @@
     - tag: D1.3
       title: Full interoperability of ELNs and WFMSs demonstrated for openBIS and
         AiiDAlab
-      authors: Edan Bainglass, Andreas Meier, Juan Fuentes, Pascal Su, Simone Baffelli
+      authors: The PREMISE team
       description: A demonstration of full interoperability between ELNs and WFMSs,
-        demonstrated for openBIS and AiiDAlab, leveraging an extended RO-Crate
-        standard to facilitate platform-agnostic data and metadata exchange.
-      current: October 2025
-      link: https://github.com/ord-premise/ro-crate-driven-eln-wfms-interoperability
+        demonstrated for openBIS and AiiDAlab, leveraging the FINALES broker to
+        facilitate platform-agnostic interoperability.
+      current: March 2026
+      link: https://github.com/ord-premise/finales-mediated-eln-wfms-interoperability
       deadline: September 2025
-      status: in-progress
+      status: completed
 
     - tag: D1.4
       title: General documentation and technical specifications of the metadata
