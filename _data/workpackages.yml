@@ -170,9 +170,9 @@
       title: Release of documentation of the design of a GUI accessible to non-experts of simulations, and pilot implementation for at least one common workflow interface
       authors:
       description: A documentation of our gained experience in designing user interfaces to interact with common workflows in Materials Science, highlighting an example implementation of such an interface driving the common workflow designed in D4.3.
-      link:
+      link: https://github.com/ord-premise/common-workflows-gui
       deadline: March 2026
-      status: planned
+      status: completed
 
 - header: "Project management and outreach"
   description: "Coordinate and manage project tasks and organise outreach via follow-up MADICES conferences and online presence"
