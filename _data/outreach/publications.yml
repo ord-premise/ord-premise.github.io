@@ -1,20 +1,41 @@
-- title: "Making atomistic materials calculations accessible with the AiiDAlab
-    Quantum ESPRESSO app"
+- title: "The interoperability challenge in DFT workflows across implementations"
+  link: https://doi.org/10.1002/aidi.202500232
+  reference: S. K. Steensen et al., Adv. Intell. Discov., e202500232 (2026)
+  description:
+
+- title: "Accelerating discovery across scientific disciplines through reproducible workflows with AiiDAlab"
+  link: https://doi.org/10.1039/D5DD00567A
+  reference: A. V. Yakutovich et al., Digit. Discov. 5, 2310-2324 (2026)
+  description:
+
+- title: "Making atomistic materials calculations accessible with the AiiDAlab Quantum ESPRESSO app"
   link: https://www.nature.com/articles/s41524-025-01936-4
   reference: X. Wang et al., npj Comput Mater, 12, 72 (2026)
   description: |
     The AiiDAlab Quantum ESPRESSO (QE) app is a web-based platform that simplifies density functional theory workflows through an intuitive interface, automated protocols, and a modular plugin architecture. By integrating setup, execution, and analysis while adhering to FAIR principles, it makes advanced simulations more accessible, reproducible, and extensible across first-principles codes.
 
-- title: "Toward an autonomous robotic battery materials research platform powered
-    by automated workflow and ontologized findable, accessible, interoperable,
-    and reusable data management"
+- title: "Semantic resources for managing knowledge in battery research"
+  link: https://doi.org/10.1002/cssc.202500458
+  reference: S. Clark et al., ChemSusChem, 18, e202500458 (2025)
+  description:
+
+- title: "A terminology for scientific workflow systems"
+  link: https://doi.org/10.1016/j.future.2025.107974
+  reference: F. Suter et al., Future Gener. Comput. Syst. 174, 107974 (2025)
+  description:
+
+- title: "A Python workflow definition for computational materials design"
+  link: https://doi.org/10.1039/D5DD00231A
+  reference: J. Janssen et al., Digit. Discov. 4, 3149-3161 (2025)
+  description:
+
+- title: "Toward an autonomous robotic battery materials research platform powered by automated workflow and ontologized findable, accessible, interoperable, and reusable data management"
   link: https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/batt.202500155
   reference: E. Svaluto-Ferro et al., Batteries & Supercaps, 2500155 (2025)
   description: |
     This study presents a comprehensive validation of the robotic battery materials research platform Aurora, automating electrolyte formulation, coin cell assembly, and coin cell cycling. A large, structured dataset with ontologized metadata detailing cell assembly and cycling protocols, alongside corresponding time series cycling data for NMC||graphite and LFP||graphite cells is provided as open research data.
 
-- title: "BattINFO converter: An automated tool for semantic annotation of battery
-    cell metadata"
+- title: "BattINFO converter: An automated tool for semantic annotation of battery cell metadata"
   link: https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/batt.202500151
   reference: N. Plainpan et al., Batteries & Supercaps, 2500151 (2025)
   description: |
@@ -26,6 +47,11 @@
   reference: F. Bernasconi et al., ACS Energy Lett. 10, 2, 635-638 (2025)
   description: |
     Pulsed electrolysis is an effective strategy to stabilize the high selectivity of Cu gas diffusion electrodes toward C≥₂ products, the decrease of which over time under continuous operation is often ascribed to (bi)carbonate precipitation. Here, we demonstrate via operando wide-angle X-ray scattering that (bi)carbonate crystals precipitate even during pulsed electrolysis but without causing losses in C≥₂ product selectivity.
+
+- title: "Autonomous battery optimisation by deploying distributed experiments and simulations"
+  link: https://doi.org/10.1002/aenm.202403263
+  reference: M. Vogler et al., Adv. Energy Mater. 14, 2403263 (2024)
+  description:
 
 - title: "Parallel experiments in electrochemical CO₂ reduction enabled by
     standardized analytics"
@@ -48,21 +74,19 @@
   description: |
     This paper discusses the first-ever integration of a workflow manager system (AiiDA) with an autonomous battery assembly/cycling platform (Aurora).
 
-- title: How to verify the precision of density-functional-theory implementations
-    via reproducible and universal workflows
+- title: "How to verify the precision of density-functional-theory implementations via reproducible and universal workflows"
   link: https://www.nature.com/articles/s42254-023-00655-3
   reference: E. Bosoni et al., Nature Reviews Physics 6, 45-58 (2024)
   description: |
     This paper provides an expert recommendation on how to verify the numerical correctness, or precision, of simulations performed at the DFT level. This paper both consistutes an important milestone for error estimation of simulations, and demonstrates the use of 11 different simulation codes interoperably, with the same input and outputs across them.
 
-- title: Developments and applications of the OPTIMADE API for materials
-    discovery, design, and data exchange
+- title: "Developments and applications of the OPTIMADE API for materials discovery, design, and data exchange"
   link: https://pubs.rsc.org/en/content/articlelanding/2024/dd/d4dd00039k
   reference: M. L. Evans et al., Digital Discovery 3.8, 1509-1533 (2024)
   description: |
     This paper discusses the recent advances of the OPTIMADE API, a REST API to provide access to crystal structure data from tens of different database online, both from simulations and from experiments, enabling interoperability of experimental and simulation data in the domain of material science.
 
-- title: The Wannier-Functions Software Ecosystem for Materials Simulations
+- title: "The Wannier-functions software ecosystem for materials simulations"
   link: https://arxiv.org/abs/2312.10769
   reference: A. Marrazzo et al., arXiv preprint arXiv:2312.10769 (2023)
   description: |
