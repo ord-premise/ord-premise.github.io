@@ -8,8 +8,7 @@
     via hardware-software integration, workflow orchastration, Bayesian
     optimization, and ORD management.
 
-- title: "Automating battery workflows with AiiDA: Towards autonomous labs that
-    are FAIR by design"
+- title: "Automating battery workflows with AiiDA: Towards autonomous labs that are FAIR by design"
   link: https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting
   authors: Giovanni Pizzi
   event: MRS Fall 2024
@@ -18,8 +17,7 @@
   description: Showcasing the AiiDA-Aurora integration work as a highlight of
     efforts towards FAIR, autonomous labs.
 
-- title: "Interoperability of experimental and computational workflows:
-    microscopies, spectroscopies, and autonomous battery cycling"
+- title: "Interoperability of experimental and computational workflows: microscopies, spectroscopies, and autonomous battery cycling"
   link: https://mse-congress.de/
   authors: Edan Bainglass
   event: Materials Science & Engineering 2024
@@ -28,14 +26,14 @@
   description: A talk on applications of the AiiDA workflow management system in
     automating experimental workflows.
 
-- title: "Automating experimental workflows with AiiDA: From battery cycling to
-    thin-film growth"
+- title: "Automating experimental workflows with AiiDA: From battery cycling to thin-film growth"
   link: https://indico.psi.ch/event/15694/
   authors: Edan Bainglass
   event: Workshop on tips and tricks for the crystal growth of inorganic materials
   location: PSI, Switzerland
   date: August 2024
-  description: A poster on the integration of the AiiDA workflow management system
+  description:
+    A poster on the integration of the AiiDA workflow management system
     with experimental workflows.
 
 - title: "Towards seamless interoperability of open research data from
@@ -45,11 +43,9 @@
   event: Future Labs Live 2024
   location: Basel, Switzerland
   date: June 2024
-  description: |
-    A presentation on the integration of the AiiDA workflow management system with experimental workflows and the PREMISE approach to managing open research data in experimental/simulation workflows. The talk was also given at the <a href="https://nccr-marvel.ch/events/marvel-junior-seminar-jun2024">2024 MARVEL Junior Seminar</a> (EPFL).
+  description: A presentation on the integration of the AiiDA workflow management system with experimental workflows and the PREMISE approach to managing open research data in experimental/simulation workflows. The talk was also given at the <a href="https://nccr-marvel.ch/events/marvel-junior-seminar-jun2024">2024 MARVEL Junior Seminar</a> (EPFL).
 
-- title: "Towards an autonomous robotic battery materials research platform
-    powered by automated workflow and ontologized FAIR data management"
+- title: "Towards an autonomous robotic battery materials research platform powered by automated workflow and ontologized FAIR data management"
   link: https://www.sintef.no/en/events/archive/2024/workshop-on-emerging-battery-technologies/
   authors: Nukorn Plainpan
   event: Workshop on Emerging Battery Technologies
@@ -67,8 +63,7 @@
     (PREMISE and OpenEM) presented a summary of the results of the respective
     projects from the first year, as well as an outlook to the next steps.
 
-- title: "Best practices and standardization efforts for CO2 electrolyzer
-    platforms & equipment overview"
+- title: "Best practices and standardization efforts for CO2 electrolyzer platforms & equipment overview"
   link: https://nccr-catalysis.ch/news/
   authors: Alessandro Senocrate (SNF Ambizione group leader)
   event: NCCR Catalysis Annual Retreat
@@ -76,8 +71,7 @@
   date: June 2024
   description:
 
-- title: "Towards autonomous robotic battery materials research and innovation -
-    the Aurora platform"
+- title: "Towards autonomous robotic battery materials research and innovation - the Aurora platform"
   link: https://meetbattery2030.eu/
   authors: Enea Svaluto-Ferro et al.
   event: Battery 2030+ Annual Conference 4
@@ -87,9 +81,7 @@
     platform at Empa and results from cycling experiment performed within the
     integrated AiiDA-Aurora system.
 
-- title: Operando Electrochemical Liquid Cell STEM Investigation of the Growth and
-    Evolution of the Mosaic Solid Electrolyte Interphase for Lithium-Ion
-    Batteries
+- title: "Operando electrochemical liquid cell STEM investigation of the growth and evolution of the mosaic solid electrolyte interphase for lithium-ion batteries"
   link: https://ecs.confex.com/ecs/245/meetingapp.cgi/Paper/187035
   authors: Corsin Battaglia (invited)
   event: 245th ECS Meeting
@@ -146,8 +138,7 @@
   description: A poster highlighting the integration of the AiiDA WFMS with the
     Aurora battery assembly and cycling platform at Empa.
 
-- title: "The Aurora project - towards an autonomous robotic battery innovation
-    platform"
+- title: "The Aurora project - towards an autonomous robotic battery innovation platform"
   link: https://indico.psi.ch/event/14214/
   authors: Enea Svaluto-Ferro
   event: Seminar, Swiss Battery Days 2023
@@ -157,8 +148,7 @@
     platform at Empa and results from cycling experiment performed within the
     integrated AiiDA-Aurora system.
 
-- title: "More than open data: towards a FAIR data and simulation infrastructure
-    with AiiDA and Materials Cloud"
+- title: "More than open data: towards a FAIR data and simulation infrastructure with AiiDA and Materials Cloud"
   link: https://nffa.eu/news/events/two-joint-nffa-europe-workshops-on-microscopy-open-data-and-analytical-large-scale-facilities/
   authors: Giovanni Pizzi (invited)
   event: Workshop, FAIR and Open Data in NFFA-Europe Pilot and Beyond
@@ -168,8 +158,7 @@
     obtained thanks to the PREMISE software tools, with specific focus on
     simulations but discussing also interoperability with experiments.
 
-- title: "Toward robust materials simulations with common workflow interfaces in
-    AiiDA"
+- title: "Toward robust materials simulations with common workflow interfaces in AiiDA"
   link: https://pasc23.pasc-conference.org/
   authors: Giovanni Pizzi (invited)
   event: Conference, PASC23
