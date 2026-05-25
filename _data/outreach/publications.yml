@@ -6,7 +6,8 @@
 - title: "Accelerating discovery across scientific disciplines through reproducible workflows with AiiDAlab"
   link: https://doi.org/10.1039/D5DD00567A
   reference: A. V. Yakutovich et al., Digit. Discov. 5, 2310-2324 (2026)
-  description:
+  description: |
+    AiiDAlab is a Jupyter-based web platform built on AiiDA that helps scientists create, run, and analyze automated computational workflows through user-friendly applications while preserving full provenance for reproducibility. The platform reduces the technical burden of managing complex simulations, execution environments, and remote computing resources, allowing researchers to focus on scientific questions. Recent developments have expanded AiiDAlab beyond computational materials science, including integrations with ELNs for FAIR data management, deployment at large-scale facilities, educational use cases, and improved community-driven support for onboarding, accessibility, and collaborative scientific workflows.
 
 - title: "Making atomistic materials calculations accessible with the AiiDAlab Quantum ESPRESSO app"
   link: https://www.nature.com/articles/s41524-025-01936-4
