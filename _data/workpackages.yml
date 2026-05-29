@@ -363,6 +363,6 @@
         A collection of links to key white papers, scientific publications and documentation
         authored throughout the course of the project, showcasing the main results and outcomes
         of PREMISE.
-      link:
+      link: https://github.com/ord-premise/premise-whitepapers
       deadline: March 2026
-      status: in-progress
+      status: completed
